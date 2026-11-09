@@ -1,0 +1,1594 @@
+{
+  "Forest": {
+    "en": "Forest",
+    "de": "Wald",
+    "tr": "Orman",
+    "ar": "رويش",
+    "uk": "Ліс",
+    "fa": "رویش"
+  },
+  "My day": {
+    "en": "My day",
+    "de": "Mein Tag",
+    "tr": "Günüm",
+    "ar": "يومي",
+    "uk": "Мій день",
+    "fa": "برنامهٔ روز"
+  },
+  "Progress": {
+    "en": "Progress",
+    "de": "Fortschritt",
+    "tr": "İlerleme",
+    "ar": "التقدم",
+    "uk": "Прогрес",
+    "fa": "مسیر رشد"
+  },
+  "Points & rewards": {
+    "en": "Points & rewards",
+    "de": "Punkte & Belohnungen",
+    "tr": "Puanlar ve ödüller",
+    "ar": "النقاط والمكافآت",
+    "uk": "Бали та винагороди",
+    "fa": "امتیاز و جایزه"
+  },
+  "A little growth, every day": {
+    "en": "A little growth, every day",
+    "de": "Jeden Tag ein wenig wachsen",
+    "tr": "Her gün biraz büyü",
+    "ar": "نمو صغير كل يوم",
+    "uk": "Трохи зростання щодня",
+    "fa": "هر روز، یک قدم سبزتر"
+  },
+  "YOUR PERSONAL SPACE": {
+    "en": "YOUR PERSONAL SPACE",
+    "de": "DEIN PERSÖNLICHER BEREICH",
+    "tr": "KİŞİSEL ALANIN",
+    "ar": "مساحتك الشخصية",
+    "uk": "ТВІЙ ОСОБИСТИЙ ПРОСТІР",
+    "fa": "فضای شخصی تو"
+  },
+  "Growth begins": {
+    "en": "Growth begins",
+    "de": "Wachstum beginnt",
+    "tr": "Büyüme başlar",
+    "ar": "يبدأ النمو",
+    "uk": "Зростання починається",
+    "fa": "رشد از قدم‌های کوچک"
+  },
+  "with small steps.": {
+    "en": "with small steps.",
+    "de": "mit kleinen Schritten.",
+    "tr": "küçük adımlarla.",
+    "ar": "بخطوات صغيرة.",
+    "uk": "з маленьких кроків.",
+    "fa": "شروع می‌شود."
+  },
+  "Make time for yourself today.": {
+    "en": "Make time for yourself today.",
+    "de": "Nimm dir heute Zeit für dich.",
+    "tr": "Bugün kendine zaman ayır.",
+    "ar": "خصص وقتًا لنفسك اليوم.",
+    "uk": "Знайди сьогодні час для себе.",
+    "fa": "امروز برای خودت وقت بگذار."
+  },
+  "↓ Download data backup": {
+    "en": "↓ Download data backup",
+    "de": "↓ Datensicherung herunterladen",
+    "tr": "↓ Veri yedeğini indir",
+    "ar": "↓ تنزيل نسخة احتياطية",
+    "uk": "↓ Завантажити резервну копію",
+    "fa": "↓ دانلود پشتیبان داده‌ها"
+  },
+  "Your data stays in this browser.": {
+    "en": "Your data stays in this browser.",
+    "de": "Deine Daten bleiben in diesem Browser.",
+    "tr": "Verilerin bu tarayıcıda saklanır.",
+    "ar": "تُحفظ بياناتك في هذا المتصفح.",
+    "uk": "Дані зберігаються в цьому браузері.",
+    "fa": "اطلاعات روی همین مرورگر ذخیره می‌شود."
+  },
+  "Your personal daily planner": {
+    "en": "Your personal daily planner",
+    "de": "Dein persönlicher Tagesplaner",
+    "tr": "Kişisel günlük planlayıcın",
+    "ar": "مخططك اليومي الشخصي",
+    "uk": "Твій особистий щоденний планувальник",
+    "fa": "برنامه‌ریز روزانهٔ شخصی"
+  },
+  "◷ Time for your next step": {
+    "en": "◷ Time for your next step",
+    "de": "◷ Zeit für deinen nächsten Schritt",
+    "tr": "◷ Sıradaki adımın zamanı",
+    "ar": "◷ حان وقت خطوتك التالية",
+    "uk": "◷ Час для наступного кроку",
+    "fa": "◷ زمانِ قدم بعدی"
+  },
+  "Got it": {
+    "en": "Got it",
+    "de": "Verstanden",
+    "tr": "Anladım",
+    "ar": "فهمت",
+    "uk": "Зрозуміло",
+    "fa": "متوجه شدم"
+  },
+  "Make room for mindful days": {
+    "en": "Make room for mindful days",
+    "de": "Für bewusstere Tage",
+    "tr": "Daha bilinçli günler için",
+    "ar": "لأيام أكثر وعيًا",
+    "uk": "Для більш усвідомлених днів",
+    "fa": "برای روزهایی آگاهانه‌تر"
+  },
+  "Add your first activity or word count to start your chart.": {
+    "en": "Add your first activity or word count to start your chart.",
+    "de": "Trage deine erste Aktivität oder Wortzahl ein, um dein Diagramm zu starten.",
+    "tr": "Grafiğini başlatmak için ilk etkinliğini veya kelime sayını ekle.",
+    "ar": "أضف أول نشاط أو عدد كلمات لبدء الرسم البياني.",
+    "uk": "Додай першу справу або кількість слів, щоб побачити графік.",
+    "fa": "با ثبت اولین فعالیت یا لغت، نمودار رشدت شکل می‌گیرد."
+  },
+  "Learning": {
+    "en": "Learning",
+    "de": "Lernen",
+    "tr": "Öğrenme",
+    "ar": "التعلم",
+    "uk": "Навчання",
+    "fa": "یادگیری"
+  },
+  "Work": {
+    "en": "Work",
+    "de": "Arbeit",
+    "tr": "İş",
+    "ar": "العمل",
+    "uk": "Робота",
+    "fa": "کار"
+  },
+  "Wellbeing": {
+    "en": "Wellbeing",
+    "de": "Wohlbefinden",
+    "tr": "Sağlık",
+    "ar": "العافية",
+    "uk": "Здоров’я",
+    "fa": "سلامتی"
+  },
+  "Personal": {
+    "en": "Personal",
+    "de": "Persönlich",
+    "tr": "Kişisel",
+    "ar": "شخصي",
+    "uk": "Особисте",
+    "fa": "شخصی"
+  },
+  "Pending": {
+    "en": "Pending",
+    "de": "Offen",
+    "tr": "Bekliyor",
+    "ar": "قيد الانتظار",
+    "uk": "Очікує",
+    "fa": "در انتظار"
+  },
+  "Completed": {
+    "en": "Completed",
+    "de": "Erledigt",
+    "tr": "Tamamlandı",
+    "ar": "مكتمل",
+    "uk": "Виконано",
+    "fa": "انجام‌شده"
+  },
+  "Not completed": {
+    "en": "Not completed",
+    "de": "Nicht erledigt",
+    "tr": "Tamamlanmadı",
+    "ar": "غير مكتمل",
+    "uk": "Не виконано",
+    "fa": "انجام‌نشده"
+  },
+  "SMALL STEPS. DEEP ROOTS.": {
+    "en": "SMALL STEPS. DEEP ROOTS.",
+    "de": "KLEINE SCHRITTE. TIEFE WURZELN.",
+    "tr": "KÜÇÜK ADIMLAR. DERİN KÖKLER.",
+    "ar": "خطوات صغيرة. جذور عميقة.",
+    "uk": "МАЛЕНЬКІ КРОКИ. ГЛИБОКЕ КОРІННЯ.",
+    "fa": "قدم‌های کوچک، ریشه‌های عمیق"
+  },
+  "Let your day grow.": {
+    "en": "Let your day grow.",
+    "de": "Lass deinen Tag wachsen.",
+    "tr": "Gününü yeşert.",
+    "ar": "دع يومك يزدهر.",
+    "uk": "Нехай твій день розквітає.",
+    "fa": "امروزت را سبز کن."
+  },
+  "Make time for what matters. Every small action is a chance to grow.": {
+    "en": "Make time for what matters. Every small action is a chance to grow.",
+    "de": "Nimm dir Zeit für das Wesentliche. Jede kleine Tat lässt dich wachsen.",
+    "tr": "Önemli şeylere zaman ayır. Her küçük adım büyümek için bir fırsat.",
+    "ar": "خصص وقتًا لما يهمك. كل عمل صغير فرصة للنمو.",
+    "uk": "Знайди час для важливого. Кожна маленька дія — нагода зростати.",
+    "fa": "برای زمانت جا باز کن؛ هر کار کوچک، فرصتی برای رشد است."
+  },
+  "＋ Add activity": {
+    "en": "＋ Add activity",
+    "de": "＋ Aktivität hinzufügen",
+    "tr": "＋ Etkinlik ekle",
+    "ar": "＋ إضافة نشاط",
+    "uk": "＋ Додати справу",
+    "fa": "＋ افزودن فعالیت"
+  },
+  "A fresh chance to grow, every day": {
+    "en": "A fresh chance to grow, every day",
+    "de": "Jeden Tag eine neue Chance zu wachsen",
+    "tr": "Her gün büyümek için yeni bir fırsat",
+    "ar": "كل يوم فرصة جديدة للنمو",
+    "uk": "Щодня нова нагода зростати",
+    "fa": "هر روز، فرصتی تازه برای روییدن"
+  },
+  "Activities today": {
+    "en": "Activities today",
+    "de": "Aktivitäten heute",
+    "tr": "Bugünkü etkinlikler",
+    "ar": "أنشطة اليوم",
+    "uk": "Справи на день",
+    "fa": "فعالیت‌های روز"
+  },
+  "Plan completion": {
+    "en": "Plan completion",
+    "de": "Planerfüllung",
+    "tr": "Plan tamamlama",
+    "ar": "إنجاز الخطة",
+    "uk": "Виконання плану",
+    "fa": "تحقق برنامه"
+  },
+  "%": {
+    "en": "%",
+    "de": "%",
+    "tr": "%",
+    "ar": "٪",
+    "uk": "%",
+    "fa": "٪"
+  },
+  "Available points": {
+    "en": "Available points",
+    "de": "Verfügbare Punkte",
+    "tr": "Kullanılabilir puan",
+    "ar": "النقاط المتاحة",
+    "uk": "Доступні бали",
+    "fa": "موجودی امتیاز"
+  },
+  "TIME FOR WHAT MATTERS": {
+    "en": "TIME FOR WHAT MATTERS",
+    "de": "ZEIT FÜR DAS WESENTLICHE",
+    "tr": "ÖNEMLİ ŞEYLERE ZAMAN",
+    "ar": "وقت لما يهمك",
+    "uk": "ЧАС ДЛЯ ВАЖЛИВОГО",
+    "fa": "زمان برای چیزهای مهم"
+  },
+  "Daily schedule": {
+    "en": "Daily schedule",
+    "de": "Tagesplan",
+    "tr": "Günlük program",
+    "ar": "الجدول اليومي",
+    "uk": "Розклад дня",
+    "fa": "برنامهٔ روزانه"
+  },
+  "Date": {
+    "en": "Date",
+    "de": "Datum",
+    "tr": "Tarih",
+    "ar": "التاريخ",
+    "uk": "Дата",
+    "fa": "تاریخ"
+  },
+  "Schedule date": {
+    "en": "Schedule date",
+    "de": "Plandatum",
+    "tr": "Program tarihi",
+    "ar": "تاريخ الجدول",
+    "uk": "Дата розкладу",
+    "fa": "تاریخ برنامه"
+  },
+  "↶ Copy previous day": {
+    "en": "↶ Copy previous day",
+    "de": "↶ Vortag kopieren",
+    "tr": "↶ Önceki günü kopyala",
+    "ar": "↶ نسخ اليوم السابق",
+    "uk": "↶ Копіювати попередній день",
+    "fa": "↶ کپی روز قبل"
+  },
+  "00:00 — 24:00": {
+    "en": "00:00 — 24:00",
+    "de": "00:00 — 24:00",
+    "tr": "00:00 — 24:00",
+    "ar": "00:00 — 24:00",
+    "uk": "00:00 — 24:00",
+    "fa": "۰۰:۰۰ — ۲۴:۰۰"
+  },
+  "Search activities": {
+    "en": "Search activities",
+    "de": "Aktivitäten suchen",
+    "tr": "Etkinlik ara",
+    "ar": "البحث في الأنشطة",
+    "uk": "Пошук справ",
+    "fa": "جست‌وجوی فعالیت"
+  },
+  "⌕ Search activities…": {
+    "en": "⌕ Search activities…",
+    "de": "⌕ Aktivitäten suchen…",
+    "tr": "⌕ Etkinlik ara…",
+    "ar": "⌕ البحث في الأنشطة…",
+    "uk": "⌕ Пошук справ…",
+    "fa": "⌕ جست‌وجوی فعالیت…"
+  },
+  "Filter by status": {
+    "en": "Filter by status",
+    "de": "Nach Status filtern",
+    "tr": "Duruma göre filtrele",
+    "ar": "تصفية حسب الحالة",
+    "uk": "Фільтр за станом",
+    "fa": "فیلتر وضعیت"
+  },
+  "All statuses": {
+    "en": "All statuses",
+    "de": "Alle Status",
+    "tr": "Tüm durumlar",
+    "ar": "كل الحالات",
+    "uk": "Усі стани",
+    "fa": "همهٔ وضعیت‌ها"
+  },
+  "Filter by category": {
+    "en": "Filter by category",
+    "de": "Nach Kategorie filtern",
+    "tr": "Kategoriye göre filtrele",
+    "ar": "تصفية حسب الفئة",
+    "uk": "Фільтр за категорією",
+    "fa": "فیلتر دسته‌بندی"
+  },
+  "All categories": {
+    "en": "All categories",
+    "de": "Alle Kategorien",
+    "tr": "Tüm kategoriler",
+    "ar": "كل الفئات",
+    "uk": "Усі категорії",
+    "fa": "همهٔ دسته‌ها"
+  },
+  "Search and show all days": {
+    "en": "Search and show all days",
+    "de": "Alle Tage durchsuchen und anzeigen",
+    "tr": "Tüm günlerde ara ve göster",
+    "ar": "البحث والعرض في كل الأيام",
+    "uk": "Шукати й показувати всі дні",
+    "fa": "جست‌وجو و نمایش در همهٔ روزها"
+  },
+  "Points": {
+    "en": "Points",
+    "de": "Punkte",
+    "tr": "Puan",
+    "ar": "نقاط",
+    "uk": "Бали",
+    "fa": "امتیاز"
+  },
+  "· ◷ Reminder": {
+    "en": "· ◷ Reminder",
+    "de": "· ◷ Erinnerung",
+    "tr": "· ◷ Hatırlatıcı",
+    "ar": "· ◷ تذكير",
+    "uk": "· ◷ Нагадування",
+    "fa": "· ◷ یادآوری"
+  },
+  "✓ Done": {
+    "en": "✓ Done",
+    "de": "✓ Erledigt",
+    "tr": "✓ Yaptım",
+    "ar": "✓ أنجزت",
+    "uk": "✓ Виконано",
+    "fa": "✓ انجام دادم"
+  },
+  "× Not done": {
+    "en": "× Not done",
+    "de": "× Nicht erledigt",
+    "tr": "× Yapmadım",
+    "ar": "× لم أنجز",
+    "uk": "× Не виконано",
+    "fa": "× انجام ندادم"
+  },
+  "Edit": {
+    "en": "Edit",
+    "de": "Bearbeiten",
+    "tr": "Düzenle",
+    "ar": "تعديل",
+    "uk": "Редагувати",
+    "fa": "ویرایش"
+  },
+  "Delete": {
+    "en": "Delete",
+    "de": "Löschen",
+    "tr": "Sil",
+    "ar": "حذف",
+    "uk": "Видалити",
+    "fa": "حذف"
+  },
+  "No activities match these filters.": {
+    "en": "No activities match these filters.",
+    "de": "Keine passenden Aktivitäten gefunden.",
+    "tr": "Bu filtrelere uyan etkinlik yok.",
+    "ar": "لا توجد أنشطة تطابق هذه المرشحات.",
+    "uk": "Немає справ за цими фільтрами.",
+    "fa": "فعالیتی با این شرایط پیدا نشد."
+  },
+  "A fresh day. A fresh start.": {
+    "en": "A fresh day. A fresh start.",
+    "de": "Ein neuer Tag. Ein neuer Anfang.",
+    "tr": "Yeni bir gün. Yeni bir başlangıç.",
+    "ar": "يوم جديد. بداية جديدة.",
+    "uk": "Новий день. Новий початок.",
+    "fa": "یک روز تازه، یک شروع تازه"
+  },
+  "Add your first activity to shape your day.": {
+    "en": "Add your first activity to shape your day.",
+    "de": "Gestalte deinen Tag mit deiner ersten Aktivität.",
+    "tr": "İlk etkinliğini ekleyerek gününü planla.",
+    "ar": "أضف أول نشاط لترسم مسار يومك.",
+    "uk": "Додай першу справу й сплануй свій день.",
+    "fa": "با افزودن اولین فعالیت، مسیر امروزت را بساز."
+  },
+  "＋ New activity": {
+    "en": "＋ New activity",
+    "de": "＋ Neue Aktivität",
+    "tr": "＋ Yeni etkinlik",
+    "ar": "＋ نشاط جديد",
+    "uk": "＋ Нова справа",
+    "fa": "＋ فعالیت جدید"
+  },
+  "Daily report": {
+    "en": "Daily report",
+    "de": "Tagesbericht",
+    "tr": "Günlük rapor",
+    "ar": "التقرير اليومي",
+    "uk": "Звіт за день",
+    "fa": "گزارش این روز"
+  },
+  "completed ·": {
+    "en": "completed ·",
+    "de": "erledigt ·",
+    "tr": "tamamlandı ·",
+    "ar": "مكتمل ·",
+    "uk": "виконано ·",
+    "fa": "انجام‌شده ·"
+  },
+  "not completed ·": {
+    "en": "not completed ·",
+    "de": "nicht erledigt ·",
+    "tr": "tamamlanmadı ·",
+    "ar": "غير مكتمل ·",
+    "uk": "не виконано ·",
+    "fa": "انجام‌نشده ·"
+  },
+  "↓ Download CSV report": {
+    "en": "↓ Download CSV report",
+    "de": "↓ CSV-Bericht herunterladen",
+    "tr": "↓ CSV raporunu indir",
+    "ar": "↓ تنزيل تقرير CSV",
+    "uk": "↓ Завантажити звіт CSV",
+    "fa": "↓ دانلود گزارش CSV"
+  },
+  "On time. At ease.": {
+    "en": "On time. At ease.",
+    "de": "Pünktlich. Ganz entspannt.",
+    "tr": "Zamanında, huzurla.",
+    "ar": "في الموعد، بهدوء.",
+    "uk": "Вчасно. Без поспіху.",
+    "fa": "به‌موقع، با آرامش"
+  },
+  "Choose a reminder when adding an activity. Keep the app open; reminders may not work while your device sleeps.": {
+    "en": "Choose a reminder when adding an activity. Keep the app open; reminders may not work while your device sleeps.",
+    "de": "Wähle beim Anlegen eine Erinnerung. Lass die App geöffnet; im Ruhemodus sind Erinnerungen nicht garantiert.",
+    "tr": "Etkinlik eklerken hatırlatıcı seç. Uygulamayı açık tut; cihaz uykudayken hatırlatma garanti edilmez.",
+    "ar": "اختر تذكيرًا عند إضافة النشاط. أبقِ التطبيق مفتوحًا؛ قد لا تعمل التذكيرات أثناء سكون الجهاز.",
+    "uk": "Обери нагадування під час додавання справи. Залиш застосунок відкритим; у режимі сну нагадування не гарантовані.",
+    "fa": "یادآوری هر فعالیت را هنگام ثبت انتخاب کن. برنامه باید باز بماند؛ در حالت خواب دستگاه، یادآوری تضمین نمی‌شود."
+  },
+  "Enable browser notifications": {
+    "en": "Enable browser notifications",
+    "de": "Browser-Benachrichtigungen aktivieren",
+    "tr": "Tarayıcı bildirimlerini aç",
+    "ar": "تفعيل إشعارات المتصفح",
+    "uk": "Увімкнути сповіщення браузера",
+    "fa": "فعال‌کردن اعلان مرورگر"
+  },
+  "“You do not need to see the whole path;": {
+    "en": "“You do not need to see the whole path;",
+    "de": "„Du musst nicht den ganzen Weg sehen;",
+    "tr": "“Tüm yolu görmen gerekmez;",
+    "ar": "«لا تحتاج إلى رؤية الطريق كله؛",
+    "uk": "«Не обов’язково бачити весь шлях;",
+    "fa": "«لازم نیست همهٔ مسیر را ببینی؛"
+  },
+  "just take the next step.”": {
+    "en": "just take the next step.”",
+    "de": "mach einfach den nächsten Schritt.“",
+    "tr": "sadece sıradaki adımı at.”",
+    "ar": "فقط اتخذ الخطوة التالية.»",
+    "uk": "просто зроби наступний крок».",
+    "fa": "فقط قدم بعدی را بردار.»"
+  },
+  "Enter an activity title.": {
+    "en": "Enter an activity title.",
+    "de": "Gib einen Aktivitätstitel ein.",
+    "tr": "Bir etkinlik adı gir.",
+    "ar": "أدخل عنوان النشاط.",
+    "uk": "Введи назву справи.",
+    "fa": "نام فعالیت را وارد کن."
+  },
+  "Choose a date.": {
+    "en": "Choose a date.",
+    "de": "Wähle ein Datum.",
+    "tr": "Bir tarih seç.",
+    "ar": "اختر تاريخًا.",
+    "uk": "Обери дату.",
+    "fa": "تاریخ را انتخاب کن."
+  },
+  "End time must be after start time. Use 24:00 for the end of the day.": {
+    "en": "End time must be after start time. Use 24:00 for the end of the day.",
+    "de": "Die Endzeit muss nach der Startzeit liegen. Für das Tagesende gilt 24:00.",
+    "tr": "Bitiş saati başlangıçtan sonra olmalı. Gün sonu için 24:00 kullan.",
+    "ar": "يجب أن يكون وقت النهاية بعد البداية. استخدم 24:00 لنهاية اليوم.",
+    "uk": "Час завершення має бути пізнішим за початок. Для кінця дня введи 24:00.",
+    "fa": "زمان پایان باید بعد از شروع باشد؛ برای پایان روز ۲۴:۰۰ را وارد کن."
+  },
+  "Points must be a whole number from 0 to 1,000.": {
+    "en": "Points must be a whole number from 0 to 1,000.",
+    "de": "Punkte müssen eine ganze Zahl zwischen 0 und 1.000 sein.",
+    "tr": "Puan, 0 ile 1.000 arasında bir tam sayı olmalı.",
+    "ar": "يجب أن تكون النقاط عددًا صحيحًا بين 0 و1000.",
+    "uk": "Бали мають бути цілим числом від 0 до 1000.",
+    "fa": "امتیاز باید عدد صحیح بین صفر و ۱۰۰۰ باشد."
+  },
+  "This time overlaps another activity.": {
+    "en": "This time overlaps another activity.",
+    "de": "Diese Zeit überschneidet sich mit einer anderen Aktivität.",
+    "tr": "Bu zaman aralığı başka bir etkinlikle çakışıyor.",
+    "ar": "يتداخل هذا الوقت مع نشاط آخر.",
+    "uk": "Цей час перетинається з іншою справою.",
+    "fa": "این بازه با یک فعالیت دیگر هم‌پوشانی دارد."
+  },
+  "Activity": {
+    "en": "Activity",
+    "de": "Aktivität",
+    "tr": "Etkinlik",
+    "ar": "النشاط",
+    "uk": "Справа",
+    "fa": "فعالیت"
+  },
+  "Start": {
+    "en": "Start",
+    "de": "Beginn",
+    "tr": "Başlangıç",
+    "ar": "البداية",
+    "uk": "Початок",
+    "fa": "شروع"
+  },
+  "End": {
+    "en": "End",
+    "de": "Ende",
+    "tr": "Bitiş",
+    "ar": "النهاية",
+    "uk": "Завершення",
+    "fa": "پایان"
+  },
+  "Category": {
+    "en": "Category",
+    "de": "Kategorie",
+    "tr": "Kategori",
+    "ar": "الفئة",
+    "uk": "Категорія",
+    "fa": "دسته‌بندی"
+  },
+  "Status": {
+    "en": "Status",
+    "de": "Status",
+    "tr": "Durum",
+    "ar": "الحالة",
+    "uk": "Стан",
+    "fa": "وضعیت"
+  },
+  "Total activities": {
+    "en": "Total activities",
+    "de": "Aktivitäten insgesamt",
+    "tr": "Toplam etkinlik",
+    "ar": "إجمالي الأنشطة",
+    "uk": "Усього справ",
+    "fa": "کل فعالیت‌ها"
+  },
+  "Completion rate": {
+    "en": "Completion rate",
+    "de": "Erfüllungsquote",
+    "tr": "Tamamlama oranı",
+    "ar": "نسبة الإنجاز",
+    "uk": "Відсоток виконання",
+    "fa": "درصد تحقق"
+  },
+  "No plan": {
+    "en": "No plan",
+    "de": "Kein Plan",
+    "tr": "Plan yok",
+    "ar": "لا توجد خطة",
+    "uk": "Немає плану",
+    "fa": "بدون برنامه"
+  },
+  "Words today": {
+    "en": "Words today",
+    "de": "Wörter heute",
+    "tr": "Bugünkü kelimeler",
+    "ar": "كلمات اليوم",
+    "uk": "Слова за день",
+    "fa": "لغات روز"
+  },
+  "FROM YOUR FIRST STEP TO TODAY": {
+    "en": "FROM YOUR FIRST STEP TO TODAY",
+    "de": "VOM ERSTEN SCHRITT BIS HEUTE",
+    "tr": "İLK ADIMINDAN BUGÜNE",
+    "ar": "من خطوتك الأولى حتى اليوم",
+    "uk": "ВІД ПЕРШОГО КРОКУ ДО СЬОГОДНІ",
+    "fa": "از اولین قدم تا امروز"
+  },
+  "Your growth journey": {
+    "en": "Your growth journey",
+    "de": "Dein Wachstumsweg",
+    "tr": "Gelişim yolculuğun",
+    "ar": "رحلة نموك",
+    "uk": "Твій шлях зростання",
+    "fa": "مسیر رشد تو"
+  },
+  "Every point is part of your journey. Be kind to yourself.": {
+    "en": "Every point is part of your journey. Be kind to yourself.",
+    "de": "Jeder Punkt gehört zu deinem Weg. Sei freundlich zu dir.",
+    "tr": "Her nokta yolculuğunun bir parçası. Kendine nazik ol.",
+    "ar": "كل نقطة جزء من رحلتك. كن لطيفًا مع نفسك.",
+    "uk": "Кожна точка — частина твого шляху. Будь добрим до себе.",
+    "fa": "هر نقطه، بخشی از مسیر توست؛ با خودت مهربان باش."
+  },
+  "Activities completed": {
+    "en": "Activities completed",
+    "de": "Erledigte Aktivitäten",
+    "tr": "Tamamlanan etkinlikler",
+    "ar": "الأنشطة المكتملة",
+    "uk": "Виконані справи",
+    "fa": "کل فعالیت‌های انجام‌شده"
+  },
+  "Total words": {
+    "en": "Total words",
+    "de": "Wörter insgesamt",
+    "tr": "Toplam kelime",
+    "ar": "إجمالي الكلمات",
+    "uk": "Усього слів",
+    "fa": "مجموع لغات"
+  },
+  "Total points earned": {
+    "en": "Total points earned",
+    "de": "Insgesamt verdiente Punkte",
+    "tr": "Kazanılan toplam puan",
+    "ar": "إجمالي النقاط المكتسبة",
+    "uk": "Усього зароблених балів",
+    "fa": "کل امتیاز کسب‌شده"
+  },
+  "Rewards claimed": {
+    "en": "Rewards claimed",
+    "de": "Erhaltene Belohnungen",
+    "tr": "Alınan ödüller",
+    "ar": "المكافآت المستلمة",
+    "uk": "Отримані винагороди",
+    "fa": "جایزه‌های دریافت‌شده"
+  },
+  "Plan completion over time": {
+    "en": "Plan completion over time",
+    "de": "Planerfüllung im Zeitverlauf",
+    "tr": "Zaman içinde plan tamamlama",
+    "ar": "إنجاز الخطة بمرور الوقت",
+    "uk": "Виконання плану з часом",
+    "fa": "روند تحقق برنامه"
+  },
+  "Completed activities as a percentage of each day's plan. Days without a plan have no percentage and break the line.": {
+    "en": "Completed activities as a percentage of each day's plan. Days without a plan have no percentage and break the line.",
+    "de": "Erledigte Aktivitäten als Anteil des Tagesplans. Tage ohne Plan haben keinen Prozentwert und unterbrechen die Linie.",
+    "tr": "Tamamlanan etkinliklerin günlük plandaki yüzdesi. Plansız günlerde yüzde yoktur ve çizgi kesilir.",
+    "ar": "نسبة الأنشطة المكتملة من خطة كل يوم. الأيام بلا خطة ليس لها نسبة وينقطع عندها الخط.",
+    "uk": "Частка виконаних справ у плані дня. Дні без плану не мають відсотка й переривають лінію.",
+    "fa": "درصد تعداد کارهای انجام‌شده از کل کارهای هر روز. روز بدون برنامه، درصد ندارد و خط قطع می‌شود."
+  },
+  "Daily completion percentage": {
+    "en": "Daily completion percentage",
+    "de": "Tägliche Erfüllungsquote",
+    "tr": "Günlük tamamlama yüzdesi",
+    "ar": "نسبة الإنجاز اليومية",
+    "uk": "Щоденний відсоток виконання",
+    "fa": "درصد تحقق روزانه"
+  },
+  "Your vocabulary journey": {
+    "en": "Your vocabulary journey",
+    "de": "Dein Wortschatz wächst",
+    "tr": "Kelime öğrenme yolculuğun",
+    "ar": "رحلة تعلم الكلمات",
+    "uk": "Твій шлях вивчення слів",
+    "fa": "مسیر یادگیری لغات"
+  },
+  "Vocabulary chart type": {
+    "en": "Vocabulary chart type",
+    "de": "Wortschatz-Diagrammtyp",
+    "tr": "Kelime grafiği türü",
+    "ar": "نوع مخطط الكلمات",
+    "uk": "Тип графіка слів",
+    "fa": "نوع نمودار لغات"
+  },
+  "Words per day": {
+    "en": "Words per day",
+    "de": "Wörter pro Tag",
+    "tr": "Günlük kelimeler",
+    "ar": "الكلمات يوميًا",
+    "uk": "Слова за кожен день",
+    "fa": "لغات هر روز"
+  },
+  "Cumulative total": {
+    "en": "Cumulative total",
+    "de": "Kumulierte Summe",
+    "tr": "Birikimli toplam",
+    "ar": "المجموع التراكمي",
+    "uk": "Накопичувальна сума",
+    "fa": "مجموع تا هر روز"
+  },
+  "Daily words": {
+    "en": "Daily words",
+    "de": "Tägliche Wörter",
+    "tr": "Günlük kelime sayısı",
+    "ar": "الكلمات اليومية",
+    "uk": "Щоденні слова",
+    "fa": "لغات روزانه"
+  },
+  "Your days at a glance": {
+    "en": "Your days at a glance",
+    "de": "Deine Tage auf einen Blick",
+    "tr": "Günlerine genel bakış",
+    "ar": "أيامك في لمحة",
+    "uk": "Твої дні одним поглядом",
+    "fa": "روزها در یک نگاه"
+  },
+  "Completed / total": {
+    "en": "Completed / total",
+    "de": "Erledigt / gesamt",
+    "tr": "Tamamlanan / toplam",
+    "ar": "مكتمل / الإجمالي",
+    "uk": "Виконано / усього",
+    "fa": "انجام‌شده / کل"
+  },
+  "Completion": {
+    "en": "Completion",
+    "de": "Erfüllung",
+    "tr": "Tamamlama",
+    "ar": "الإنجاز",
+    "uk": "Виконання",
+    "fa": "تحقق"
+  },
+  "No data recorded yet.": {
+    "en": "No data recorded yet.",
+    "de": "Noch keine Daten erfasst.",
+    "tr": "Henüz veri kaydedilmedi.",
+    "ar": "لم تُسجل بيانات بعد.",
+    "uk": "Дані ще не записані.",
+    "fa": "هنوز داده‌ای ثبت نشده است."
+  },
+  "Your next reward is saved.": {
+    "en": "Your next reward is saved.",
+    "de": "Deine nächste Belohnung wurde gespeichert.",
+    "tr": "Sıradaki ödülün kaydedildi.",
+    "ar": "تم حفظ مكافأتك التالية.",
+    "uk": "Наступну винагороду збережено.",
+    "fa": "جایزهٔ بعدی ثبت شد."
+  },
+  "CELEBRATE YOUR EFFORT": {
+    "en": "CELEBRATE YOUR EFFORT",
+    "de": "FEIERE DEINEN EINSATZ",
+    "tr": "EMEĞİNİ KUTLA",
+    "ar": "احتفل بجهدك",
+    "uk": "СВЯТКУЙ СВОЇ ЗУСИЛЛЯ",
+    "fa": "تلاشت را جشن بگیر"
+  },
+  "Give yourself something to look forward to.": {
+    "en": "Give yourself something to look forward to.",
+    "de": "Gönn dir etwas, auf das du dich freust.",
+    "tr": "Kendine bir ödül belirle.",
+    "ar": "امنح نفسك شيئًا تتطلع إليه.",
+    "uk": "Обери те, на що приємно чекати.",
+    "fa": "برای خودت یک جایزه کنار بگذار."
+  },
+  "Every completed activity brings your reward a little closer.": {
+    "en": "Every completed activity brings your reward a little closer.",
+    "de": "Jede erledigte Aktivität bringt deine Belohnung näher.",
+    "tr": "Tamamlanan her etkinlik seni ödülüne yaklaştırır.",
+    "ar": "كل نشاط مكتمل يقربك من مكافأتك.",
+    "uk": "Кожна виконана справа наближає винагороду.",
+    "fa": "هر فعالیت انجام‌شده، یک قدم به جایزهٔ شخصی‌ات نزدیک‌تر است."
+  },
+  "Spendable points": {
+    "en": "Spendable points",
+    "de": "Einlösbare Punkte",
+    "tr": "Harcanabilir puan",
+    "ar": "النقاط القابلة للاستخدام",
+    "uk": "Бали для обміну",
+    "fa": "امتیاز قابل‌خرج"
+  },
+  "Points spent": {
+    "en": "Points spent",
+    "de": "Eingelöste Punkte",
+    "tr": "Harcanan puan",
+    "ar": "النقاط المستخدمة",
+    "uk": "Витрачені бали",
+    "fa": "امتیاز خرج‌شده"
+  },
+  "Your rewards": {
+    "en": "Your rewards",
+    "de": "Deine Belohnungen",
+    "tr": "Ödüllerin",
+    "ar": "مكافآتك",
+    "uk": "Твої винагороди",
+    "fa": "جایزه‌های تو"
+  },
+  "YOUR NEXT REWARD": {
+    "en": "YOUR NEXT REWARD",
+    "de": "DEINE NÄCHSTE BELOHNUNG",
+    "tr": "SIRADAKİ ÖDÜLÜN",
+    "ar": "مكافأتك التالية",
+    "uk": "ТВОЯ НАСТУПНА ВИНАГОРОДА",
+    "fa": "جایزهٔ بعدی تو"
+  },
+  "of": {
+    "en": "of",
+    "de": "von",
+    "tr": "/",
+    "ar": "من",
+    "uk": "з",
+    "fa": "از"
+  },
+  "Time to celebrate!": {
+    "en": "Time to celebrate!",
+    "de": "Zeit zum Feiern!",
+    "tr": "Kutlama zamanı!",
+    "ar": "حان وقت الاحتفال!",
+    "uk": "Час святкувати!",
+    "fa": "وقت جشن گرفتن است!"
+  },
+  "Reward claimed! Set your next reward.": {
+    "en": "Reward claimed! Set your next reward.",
+    "de": "Belohnung erhalten! Lege deine nächste fest.",
+    "tr": "Ödül alındı! Sıradaki ödülünü belirle.",
+    "ar": "تم استلام المكافأة! حدد المكافأة التالية.",
+    "uk": "Винагороду отримано! Обери наступну.",
+    "fa": "جایزه دریافت شد! حالا جایزهٔ بعدی را تعریف کن."
+  },
+  "Claim reward": {
+    "en": "Claim reward",
+    "de": "Belohnung einlösen",
+    "tr": "Ödülü al",
+    "ar": "استلام المكافأة",
+    "uk": "Отримати винагороду",
+    "fa": "دریافت جایزه"
+  },
+  "Change reward": {
+    "en": "Change reward",
+    "de": "Belohnung ändern",
+    "tr": "Ödülü değiştir",
+    "ar": "تغيير المكافأة",
+    "uk": "Змінити винагороду",
+    "fa": "تغییر جایزه"
+  },
+  "What is your next reward?": {
+    "en": "What is your next reward?",
+    "de": "Was ist deine nächste Belohnung?",
+    "tr": "Sıradaki ödülün ne?",
+    "ar": "ما مكافأتك التالية؟",
+    "uk": "Якою буде наступна винагорода?",
+    "fa": "جایزهٔ بعدی‌ات چیست؟"
+  },
+  "Reward name": {
+    "en": "Reward name",
+    "de": "Name der Belohnung",
+    "tr": "Ödül adı",
+    "ar": "اسم المكافأة",
+    "uk": "Назва винагороди",
+    "fa": "نام جایزه"
+  },
+  "For example, a movie night": {
+    "en": "For example, a movie night",
+    "de": "Zum Beispiel ein Kinoabend",
+    "tr": "Örneğin bir sinema gecesi",
+    "ar": "مثلًا أمسية سينمائية",
+    "uk": "Наприклад, вечір у кіно",
+    "fa": "مثلاً یک عصر سینما"
+  },
+  "Points required": {
+    "en": "Points required",
+    "de": "Benötigte Punkte",
+    "tr": "Gereken puan",
+    "ar": "النقاط المطلوبة",
+    "uk": "Потрібні бали",
+    "fa": "امتیاز لازم"
+  },
+  "Save reward": {
+    "en": "Save reward",
+    "de": "Belohnung speichern",
+    "tr": "Ödülü kaydet",
+    "ar": "حفظ المكافأة",
+    "uk": "Зберегти винагороду",
+    "fa": "ثبت جایزه"
+  },
+  "Cancel": {
+    "en": "Cancel",
+    "de": "Abbrechen",
+    "tr": "Vazgeç",
+    "ar": "إلغاء",
+    "uk": "Скасувати",
+    "fa": "انصراف"
+  },
+  "Claiming a reward deducts its cost. Any extra points stay in your balance.": {
+    "en": "Claiming a reward deducts its cost. Any extra points stay in your balance.",
+    "de": "Beim Einlösen werden die Kosten abgezogen. Übrige Punkte bleiben erhalten.",
+    "tr": "Ödülün bedeli bakiyenden düşülür. Fazla puanlar kalır.",
+    "ar": "يُخصم ثمن المكافأة من الرصيد وتبقى النقاط الإضافية.",
+    "uk": "Вартість винагороди віднімається від балансу. Решта балів залишається.",
+    "fa": "دریافت جایزه، امتیاز لازم را از موجودی کم می‌کند؛ امتیاز اضافه باقی می‌ماند."
+  },
+  "Reward history": {
+    "en": "Reward history",
+    "de": "Belohnungsverlauf",
+    "tr": "Ödül geçmişi",
+    "ar": "سجل المكافآت",
+    "uk": "Історія винагород",
+    "fa": "خاطرهٔ جایزه‌ها"
+  },
+  "Your first reward will appear here.": {
+    "en": "Your first reward will appear here.",
+    "de": "Deine erste Belohnung erscheint hier.",
+    "tr": "İlk ödülün burada görünecek.",
+    "ar": "ستظهر مكافأتك الأولى هنا.",
+    "uk": "Тут з’явиться твоя перша винагорода.",
+    "fa": "اولین جایزه‌ات اینجا ثبت خواهد شد."
+  },
+  "Activity saved.": {
+    "en": "Activity saved.",
+    "de": "Aktivität gespeichert.",
+    "tr": "Etkinlik kaydedildi.",
+    "ar": "تم حفظ النشاط.",
+    "uk": "Справу збережено.",
+    "fa": "فعالیت ذخیره شد."
+  },
+  "Edit activity": {
+    "en": "Edit activity",
+    "de": "Aktivität bearbeiten",
+    "tr": "Etkinliği düzenle",
+    "ar": "تعديل النشاط",
+    "uk": "Редагувати справу",
+    "fa": "ویرایش فعالیت"
+  },
+  "A new step": {
+    "en": "A new step",
+    "de": "Ein neuer Schritt",
+    "tr": "Yeni bir adım",
+    "ar": "خطوة جديدة",
+    "uk": "Новий крок",
+    "fa": "یک قدم تازه"
+  },
+  "Close": {
+    "en": "Close",
+    "de": "Schließen",
+    "tr": "Kapat",
+    "ar": "إغلاق",
+    "uk": "Закрити",
+    "fa": "بستن"
+  },
+  "Activity title": {
+    "en": "Activity title",
+    "de": "Aktivitätstitel",
+    "tr": "Etkinlik adı",
+    "ar": "عنوان النشاط",
+    "uk": "Назва справи",
+    "fa": "عنوان فعالیت"
+  },
+  "For example, review 10 new words": {
+    "en": "For example, review 10 new words",
+    "de": "Zum Beispiel 10 neue Wörter wiederholen",
+    "tr": "Örneğin 10 yeni kelimeyi tekrar et",
+    "ar": "مثلًا مراجعة 10 كلمات جديدة",
+    "uk": "Наприклад, повторити 10 нових слів",
+    "fa": "مثلاً مرور ۱۰ لغت زبان"
+  },
+  "End (up to 24:00)": {
+    "en": "End (up to 24:00)",
+    "de": "Ende (bis 24:00)",
+    "tr": "Bitiş (24:00'e kadar)",
+    "ar": "النهاية (حتى 24:00)",
+    "uk": "Кінець (до 24:00)",
+    "fa": "پایان (تا ۲۴:۰۰)"
+  },
+  "Reminder": {
+    "en": "Reminder",
+    "de": "Erinnerung",
+    "tr": "Hatırlatıcı",
+    "ar": "تذكير",
+    "uk": "Нагадування",
+    "fa": "یادآوری"
+  },
+  "No reminder": {
+    "en": "No reminder",
+    "de": "Keine Erinnerung",
+    "tr": "Hatırlatma yok",
+    "ar": "بلا تذكير",
+    "uk": "Без нагадування",
+    "fa": "بدون یادآوری"
+  },
+  "At start time": {
+    "en": "At start time",
+    "de": "Zum Beginn",
+    "tr": "Başlangıçta",
+    "ar": "عند البداية",
+    "uk": "На початку",
+    "fa": "زمان شروع"
+  },
+  "minutes before": {
+    "en": "minutes before",
+    "de": "Minuten vorher",
+    "tr": "dakika önce",
+    "ar": "دقائق قبل",
+    "uk": "хвилин до початку",
+    "fa": "دقیقه قبل"
+  },
+  "Completed activity points are locked. Undo completion before changing them.": {
+    "en": "Completed activity points are locked. Undo completion before changing them.",
+    "de": "Punkte erledigter Aktivitäten sind gesperrt. Setze den Status zuerst zurück.",
+    "tr": "Tamamlanan etkinliğin puanı kilitlidir. Değiştirmeden önce tamamlamayı geri al.",
+    "ar": "نقاط النشاط المكتمل ثابتة. تراجع عن إكماله قبل تغييرها.",
+    "uk": "Бали виконаної справи заблоковано. Спершу скасуй виконання.",
+    "fa": "امتیاز فعالیت انجام‌شده ثابت است؛ برای تغییر، ابتدا وضعیت را برگردان."
+  },
+  "Save activity": {
+    "en": "Save activity",
+    "de": "Aktivität speichern",
+    "tr": "Etkinliği kaydet",
+    "ar": "حفظ النشاط",
+    "uk": "Зберегти справу",
+    "fa": "ذخیرهٔ فعالیت"
+  },
+  "Word count saved for this day.": {
+    "en": "Word count saved for this day.",
+    "de": "Wortzahl für diesen Tag gespeichert.",
+    "tr": "Bu günün kelime sayısı kaydedildi.",
+    "ar": "تم حفظ عدد كلمات هذا اليوم.",
+    "uk": "Кількість слів за цей день збережено.",
+    "fa": "تعداد لغات این روز ذخیره شد."
+  },
+  "ONE WORD AT A TIME": {
+    "en": "ONE WORD AT A TIME",
+    "de": "WORT FÜR WORT VORAN",
+    "tr": "KELİME KELİME İLERLE",
+    "ar": "كلمة تلو الأخرى",
+    "uk": "СЛОВО ЗА СЛОВОМ",
+    "fa": "واژه‌به‌واژه، رو به جلو"
+  },
+  "How many words did you learn?": {
+    "en": "How many words did you learn?",
+    "de": "Wie viele Wörter hast du gelernt?",
+    "tr": "Kaç kelime öğrendin?",
+    "ar": "كم كلمة تعلمت؟",
+    "uk": "Скільки слів ти вивчив?",
+    "fa": "امروز چند لغت یاد گرفتی؟"
+  },
+  "Record new words for the selected day.": {
+    "en": "Record new words for the selected day.",
+    "de": "Trage neue Wörter für den gewählten Tag ein.",
+    "tr": "Seçili gün için yeni kelime sayısını kaydet.",
+    "ar": "سجل الكلمات الجديدة لليوم المحدد.",
+    "uk": "Запиши нові слова за обраний день.",
+    "fa": "تعداد لغات جدید روز انتخاب‌شده را ثبت کن."
+  },
+  "Daily word count": {
+    "en": "Daily word count",
+    "de": "Tägliche Wortzahl",
+    "tr": "Günlük kelime sayısı",
+    "ar": "عدد كلمات اليوم",
+    "uk": "Кількість слів за день",
+    "fa": "تعداد لغات روز"
+  },
+  "new words": {
+    "en": "new words",
+    "de": "neue Wörter",
+    "tr": "yeni kelime",
+    "ar": "كلمات جديدة",
+    "uk": "нових слів",
+    "fa": "لغت جدید"
+  },
+  "Save word count": {
+    "en": "Save word count",
+    "de": "Wortzahl speichern",
+    "tr": "Kelime sayısını kaydet",
+    "ar": "حفظ عدد الكلمات",
+    "uk": "Зберегти кількість слів",
+    "fa": "ثبت یادگیری امروز"
+  },
+  "All-time total": {
+    "en": "All-time total",
+    "de": "Gesamtsumme",
+    "tr": "Tüm zamanların toplamı",
+    "ar": "المجموع الكلي",
+    "uk": "Сума за весь час",
+    "fa": "مجموع همهٔ روزها"
+  },
+  "words": {
+    "en": "words",
+    "de": "Wörter",
+    "tr": "kelime",
+    "ar": "كلمات",
+    "uk": "слів",
+    "fa": "لغت"
+  },
+  "Saved data could not be read. Autosave is disabled to protect it.": {
+    "en": "Saved data could not be read. Autosave is disabled to protect it.",
+    "de": "Gespeicherte Daten konnten nicht gelesen werden. Zum Schutz ist automatisches Speichern deaktiviert.",
+    "tr": "Kayıtlı veriler okunamadı. Verileri korumak için otomatik kayıt kapatıldı.",
+    "ar": "تعذرت قراءة البيانات المحفوظة. تم تعطيل الحفظ التلقائي لحمايتها.",
+    "uk": "Не вдалося прочитати збережені дані. Автозбереження вимкнено для їх захисту.",
+    "fa": "خواندن داده‌های قبلی ممکن نشد. برای جلوگیری از بازنویسی، ذخیرهٔ خودکار غیرفعال است."
+  },
+  "Browser storage is unavailable. Download a backup to keep your data.": {
+    "en": "Browser storage is unavailable. Download a backup to keep your data.",
+    "de": "Browserspeicher nicht verfügbar. Lade eine Sicherung deiner Daten herunter.",
+    "tr": "Tarayıcı depolaması kullanılamıyor. Verilerini korumak için yedek indir.",
+    "ar": "تخزين المتصفح غير متاح. نزّل نسخة احتياطية لحفظ بياناتك.",
+    "uk": "Сховище браузера недоступне. Завантаж резервну копію даних.",
+    "fa": "ذخیره‌سازی در مرورگر ممکن نشد. برای نگهداری داده‌ها پشتیبان دانلود کن."
+  },
+  "Time to start now": {
+    "en": "Time to start now",
+    "de": "Jetzt geht es los",
+    "tr": "Şimdi başlama zamanı",
+    "ar": "حان وقت البدء",
+    "uk": "Час починати",
+    "fa": "الان وقت شروع است"
+  },
+  "Forest reminder": {
+    "en": "Forest reminder",
+    "de": "Wald-Erinnerung",
+    "tr": "Orman hatırlatıcısı",
+    "ar": "تذكير رويش",
+    "uk": "Нагадування Лісу",
+    "fa": "یادآوری رویش"
+  },
+  "These points were spent on a reward. You need enough available points to undo completion.": {
+    "en": "These points were spent on a reward. You need enough available points to undo completion.",
+    "de": "Diese Punkte wurden eingelöst. Zum Zurücksetzen brauchst du genug verfügbare Punkte.",
+    "tr": "Bu puanlar ödüle harcandı. Tamamlamayı geri almak için yeterli puanın olmalı.",
+    "ar": "استُخدمت هذه النقاط لمكافأة. تحتاج رصيدًا كافيًا للتراجع عن الإكمال.",
+    "uk": "Ці бали витрачено на винагороду. Для скасування виконання потрібен достатній баланс.",
+    "fa": "امتیاز این فعالیت خرج جایزه شده؛ موجودی کافی برای برگشت وضعیت وجود ندارد."
+  },
+  "You need enough points in your balance to delete this completed activity.": {
+    "en": "You need enough points in your balance to delete this completed activity.",
+    "de": "Zum Löschen dieser erledigten Aktivität brauchst du genug Punkte im Guthaben.",
+    "tr": "Bu tamamlanan etkinliği silmek için yeterli puanın olmalı.",
+    "ar": "تحتاج رصيد نقاط كافيًا لحذف هذا النشاط المكتمل.",
+    "uk": "Для видалення виконаної справи потрібен достатній баланс балів.",
+    "fa": "برای حذف فعالیت، باید امتیاز خرج‌شدهٔ آن در موجودی وجود داشته باشد."
+  },
+  "No activities were recorded for the previous day.": {
+    "en": "No activities were recorded for the previous day.",
+    "de": "Für den Vortag wurden keine Aktivitäten erfasst.",
+    "tr": "Önceki gün için kayıtlı etkinlik yok.",
+    "ar": "لم تُسجل أنشطة لليوم السابق.",
+    "uk": "За попередній день немає справ.",
+    "fa": "برای روز قبل فعالیتی ثبت نشده است."
+  },
+  "Cannot copy: some activities overlap this day's schedule.": {
+    "en": "Cannot copy: some activities overlap this day's schedule.",
+    "de": "Kopieren nicht möglich: Einige Aktivitäten überschneiden sich mit diesem Tagesplan.",
+    "tr": "Kopyalanamıyor: bazı etkinlikler bu günün programıyla çakışıyor.",
+    "ar": "تعذر النسخ: بعض الأنشطة تتداخل مع جدول هذا اليوم.",
+    "uk": "Не вдалося скопіювати: деякі справи перетинаються з розкладом дня.",
+    "fa": "کپی ممکن نیست؛ زمان بعضی فعالیت‌ها با برنامهٔ این روز هم‌پوشانی دارد."
+  },
+  "Previous day's schedule copied.": {
+    "en": "Previous day's schedule copied.",
+    "de": "Plan des Vortags kopiert.",
+    "tr": "Önceki günün programı kopyalandı.",
+    "ar": "تم نسخ جدول اليوم السابق.",
+    "uk": "Розклад попереднього дня скопійовано.",
+    "fa": "برنامهٔ روز قبل کپی شد."
+  },
+  "This browser does not support system notifications. In-app reminders are active.": {
+    "en": "This browser does not support system notifications. In-app reminders are active.",
+    "de": "Dieser Browser unterstützt keine Systembenachrichtigungen. Erinnerungen in der App sind aktiv.",
+    "tr": "Bu tarayıcı sistem bildirimlerini desteklemiyor. Uygulama içi hatırlatmalar etkin.",
+    "ar": "هذا المتصفح لا يدعم إشعارات النظام. التذكيرات داخل التطبيق مفعلة.",
+    "uk": "Браузер не підтримує системні сповіщення. Нагадування в застосунку активні.",
+    "fa": "این مرورگر اعلان سیستمی ندارد؛ یادآوری داخل برنامه فعال است."
+  },
+  "Browser notifications enabled. Keep the app open.": {
+    "en": "Browser notifications enabled. Keep the app open.",
+    "de": "Browser-Benachrichtigungen aktiviert. Lass die App geöffnet.",
+    "tr": "Tarayıcı bildirimleri açıldı. Uygulamayı açık tut.",
+    "ar": "تم تفعيل إشعارات المتصفح. أبقِ التطبيق مفتوحًا.",
+    "uk": "Сповіщення браузера ввімкнено. Залиш застосунок відкритим.",
+    "fa": "اعلان مرورگر فعال شد. برنامه را باز نگه دار."
+  },
+  "In-app reminders are still active.": {
+    "en": "In-app reminders are still active.",
+    "de": "Erinnerungen in der App bleiben aktiv.",
+    "tr": "Uygulama içi hatırlatmalar hâlâ etkin.",
+    "ar": "التذكيرات داخل التطبيق لا تزال مفعلة.",
+    "uk": "Нагадування в застосунку залишаються активними.",
+    "fa": "یادآوری داخل برنامه همچنان فعال است."
+  },
+  "Browser notifications are unavailable here. In-app reminders are active.": {
+    "en": "Browser notifications are unavailable here. In-app reminders are active.",
+    "de": "Browser-Benachrichtigungen sind hier nicht verfügbar. Erinnerungen in der App sind aktiv.",
+    "tr": "Burada tarayıcı bildirimleri kullanılamıyor. Uygulama içi hatırlatmalar etkin.",
+    "ar": "إشعارات المتصفح غير متاحة هنا. التذكيرات داخل التطبيق مفعلة.",
+    "uk": "Сповіщення браузера тут недоступні. Нагадування в застосунку активні.",
+    "fa": "اعلان مرورگر در این محیط در دسترس نیست؛ یادآوری داخل برنامه فعال است."
+  },
+  "Language": {
+    "en": "Language",
+    "de": "Sprache",
+    "tr": "Dil",
+    "ar": "اللغة",
+    "uk": "Мова",
+    "fa": "زبان"
+  },
+  "Delete “{title}”?": {
+    "en": "Delete “{title}”?",
+    "de": "„{title}“ löschen?",
+    "tr": "“{title}” silinsin mi?",
+    "ar": "حذف «{title}»؟",
+    "uk": "Видалити «{title}»?",
+    "fa": "فعالیت «{title}» حذف شود؟"
+  },
+  "{n} minutes until start": {
+    "en": "{n} minutes until start",
+    "de": "Noch {n} Minuten bis zum Beginn",
+    "tr": "Başlamasına {n} dakika kaldı",
+    "ar": "باقي {n} دقائق على البدء",
+    "uk": "До початку {n} хвилин",
+    "fa": "{n} دقیقه تا شروع"
+  },
+  "{n} points until your reward": {
+    "en": "{n} points until your reward",
+    "de": "Noch {n} Punkte bis zu deiner Belohnung",
+    "tr": "Ödülüne {n} puan kaldı",
+    "ar": "باقي {n} نقطة لمكافأتك",
+    "uk": "До винагороди залишилося {n} балів",
+    "fa": "{n} امتیاز تا رسیدن به جایزه"
+  },
+  "Welcome to Forest": {
+    "en": "Welcome to Forest",
+    "de": "Willkommen bei Wald",
+    "tr": "Orman’a hoş geldin",
+    "ar": "مرحبًا بك في رويش",
+    "uk": "Ласкаво просимо до Лісу",
+    "fa": "به رویش خوش آمدی"
+  },
+  "Choose your language and tell us your name to begin.": {
+    "en": "Choose your language and tell us your name to begin.",
+    "de": "Wähle deine Sprache und gib deinen Namen ein, um zu beginnen.",
+    "tr": "Başlamak için dilini seç ve adını gir.",
+    "ar": "اختر لغتك وأدخل اسمك للبدء.",
+    "uk": "Обери мову та введи ім’я, щоб почати.",
+    "fa": "برای شروع، زبانت را انتخاب کن و نامت را بنویس."
+  },
+  "Your name": {
+    "en": "Your name",
+    "de": "Dein Name",
+    "tr": "Adın",
+    "ar": "اسمك",
+    "uk": "Твоє ім’я",
+    "fa": "نام شما"
+  },
+  "What should we call you?": {
+    "en": "What should we call you?",
+    "de": "Wie sollen wir dich nennen?",
+    "tr": "Sana nasıl hitap edelim?",
+    "ar": "بماذا نناديك؟",
+    "uk": "Як до тебе звертатися?",
+    "fa": "چه صدایت کنیم؟"
+  },
+  "Enter my planner": {
+    "en": "Enter my planner",
+    "de": "Meinen Planer öffnen",
+    "tr": "Planlayıcıma gir",
+    "ar": "الدخول إلى مخططي",
+    "uk": "Відкрити мій планувальник",
+    "fa": "ورود به برنامه"
+  },
+  "Save changes": {
+    "en": "Save changes",
+    "de": "Änderungen speichern",
+    "tr": "Değişiklikleri kaydet",
+    "ar": "حفظ التغييرات",
+    "uk": "Зберегти зміни",
+    "fa": "ذخیرهٔ تغییرات"
+  },
+  "Welcome, {name}": {
+    "en": "Welcome, {name}",
+    "de": "Willkommen, {name}",
+    "tr": "Hoş geldin, {name}",
+    "ar": "مرحبًا، {name}",
+    "uk": "Вітаємо, {name}",
+    "fa": "خوش آمدی، {name}"
+  },
+  "Edit name & language": {
+    "en": "Edit name & language",
+    "de": "Name & Sprache ändern",
+    "tr": "Adı ve dili düzenle",
+    "ar": "تعديل الاسم واللغة",
+    "uk": "Змінити ім’я та мову",
+    "fa": "تغییر نام و زبان"
+  },
+  "Your name and plans are saved only in this browser. No account is created.": {
+    "en": "Your name and plans are saved only in this browser. No account is created.",
+    "de": "Dein Name und deine Pläne bleiben in diesem Browser. Es wird kein Konto erstellt.",
+    "tr": "Adın ve planların yalnızca bu tarayıcıda saklanır. Hesap oluşturulmaz.",
+    "ar": "يُحفظ اسمك وخططك في هذا المتصفح فقط. لا يتم إنشاء حساب.",
+    "uk": "Ім’я та плани зберігаються лише в цьому браузері. Обліковий запис не створюється.",
+    "fa": "نام و برنامه‌ها فقط در همین مرورگر ذخیره می‌شوند. حساب کاربری ساخته نمی‌شود."
+  },
+  "Please enter your name.": {
+    "en": "Please enter your name.",
+    "de": "Bitte gib deinen Namen ein.",
+    "tr": "Lütfen adını gir.",
+    "ar": "يرجى إدخال اسمك.",
+    "uk": "Введи своє ім’я.",
+    "fa": "لطفاً نامت را وارد کن."
+  },
+  "Your browser cannot save your profile. Enable local storage to continue.": {
+    "en": "Your browser cannot save your profile. Enable local storage to continue.",
+    "de": "Dein Browser kann dein Profil nicht speichern. Aktiviere den lokalen Speicher.",
+    "tr": "Tarayıcın profili kaydedemiyor. Devam etmek için yerel depolamayı aç.",
+    "ar": "لا يستطيع متصفحك حفظ الملف. فعّل التخزين المحلي للمتابعة.",
+    "uk": "Браузер не може зберегти профіль. Увімкни локальне сховище.",
+    "fa": "مرورگر امکان ذخیرهٔ مشخصات را ندارد. برای ادامه ذخیره‌سازی محلی را فعال کن."
+  },
+  "Search languages": {
+    "en": "Search languages",
+    "de": "Sprachen suchen",
+    "tr": "Dil ara",
+    "ar": "البحث عن لغة",
+    "uk": "Пошук мов",
+    "fa": "جست‌وجوی زبان"
+  },
+  "Search by name or language code": {
+    "en": "Search by name or language code",
+    "de": "Nach Name oder Sprachcode suchen",
+    "tr": "Ad veya dil koduyla ara",
+    "ar": "ابحث بالاسم أو رمز اللغة",
+    "uk": "Пошук за назвою або кодом мови",
+    "fa": "نام زبان یا کد آن را جست‌وجو کن"
+  },
+  "{count} language choices": {
+    "en": "{count} language choices",
+    "de": "{count} Sprachen zur Auswahl",
+    "tr": "{count} dil seçeneği",
+    "ar": "{count} خيار لغة",
+    "uk": "{count} мов на вибір",
+    "fa": "امکان انتخاب {count} زبان"
+  },
+  "No matching language. Try an English name or language code.": {
+    "en": "No matching language. Try an English name or language code.",
+    "de": "Keine passende Sprache. Versuche den englischen Namen oder Sprachcode.",
+    "tr": "Eşleşen dil yok. İngilizce adını veya dil kodunu dene.",
+    "ar": "لا توجد لغة مطابقة. جرّب الاسم بالإنجليزية أو رمز اللغة.",
+    "uk": "Мову не знайдено. Спробуй англійську назву або код мови.",
+    "fa": "زبانی پیدا نشد. نام انگلیسی یا کد زبان را امتحان کن."
+  },
+  "This interface is currently available in English for your language. Dates and numbers use your selected locale.": {
+    "en": "This interface is currently available in English for your language. Dates and numbers use your selected locale.",
+    "de": "Für deine Sprache wird die Oberfläche derzeit auf Englisch angezeigt. Datum und Zahlen verwenden deine gewählte Sprache.",
+    "tr": "Seçtiğin dil için arayüz şimdilik İngilizce. Tarihler ve sayılar seçtiğin yerel biçimi kullanır.",
+    "ar": "الواجهة متاحة حاليًا بالإنجليزية للغتك. تُعرض التواريخ والأرقام وفق اللغة المختارة.",
+    "uk": "Для обраної мови інтерфейс поки англійською. Дати й числа мають обраний місцевий формат.",
+    "fa": "رابط این زبان فعلاً انگلیسی است. تاریخ و اعداد با زبان انتخابی نمایش داده می‌شوند."
+  },
+  "24-hour view": {
+    "en": "24-hour view",
+    "de": "24-Stunden-Ansicht",
+    "tr": "24 saat görünümü",
+    "ar": "عرض 24 ساعة",
+    "uk": "Огляд 24 годин",
+    "fa": "نمای ۲۴ ساعته"
+  },
+  "Your day at a glance": {
+    "en": "Your day at a glance",
+    "de": "Dein Tag auf einen Blick",
+    "tr": "Gününe genel bakış",
+    "ar": "يومك في لمحة",
+    "uk": "Твій день одним поглядом",
+    "fa": "روزت در یک نگاه"
+  },
+  "See free and scheduled minutes without changing your plan.": {
+    "en": "See free and scheduled minutes without changing your plan.",
+    "de": "Sieh freie und verplante Minuten, ohne deinen Plan zu ändern.",
+    "tr": "Planını değiştirmeden boş ve planlı dakikaları gör.",
+    "ar": "شاهد الدقائق المتاحة والمحجوزة دون تغيير خطتك.",
+    "uk": "Переглядай вільні та заплановані хвилини, не змінюючи план.",
+    "fa": "دقیقه‌های آزاد و برنامه‌ریزی‌شده را بدون تغییر برنامه ببین."
+  },
+  "Back to my day": {
+    "en": "Back to my day",
+    "de": "Zurück zu meinem Tag",
+    "tr": "Günüme dön",
+    "ar": "العودة إلى يومي",
+    "uk": "Назад до мого дня",
+    "fa": "بازگشت به برنامهٔ روز"
+  },
+  "Free time": {
+    "en": "Free time",
+    "de": "Freie Zeit",
+    "tr": "Boş zaman",
+    "ar": "وقت متاح",
+    "uk": "Вільний час",
+    "fa": "زمان آزاد"
+  },
+  "Scheduled time": {
+    "en": "Scheduled time",
+    "de": "Verplante Zeit",
+    "tr": "Planlı zaman",
+    "ar": "وقت محجوز",
+    "uk": "Запланований час",
+    "fa": "زمان برنامه‌ریزی‌شده"
+  },
+  "{hours} h {minutes} min": {
+    "en": "{hours} h {minutes} min",
+    "de": "{hours} Std. {minutes} Min.",
+    "tr": "{hours} sa {minutes} dk",
+    "ar": "{hours} س {minutes} د",
+    "uk": "{hours} год {minutes} хв",
+    "fa": "{hours} ساعت و {minutes} دقیقه"
+  },
+  "{count} min": {
+    "en": "{count} min",
+    "de": "{count} Min.",
+    "tr": "{count} dk",
+    "ar": "{count} د",
+    "uk": "{count} хв",
+    "fa": "{count} دقیقه"
+  },
+  "Free": {
+    "en": "Free",
+    "de": "Frei",
+    "tr": "Boş",
+    "ar": "متاح",
+    "uk": "Вільно",
+    "fa": "آزاد"
+  },
+  "Booked": {
+    "en": "Booked",
+    "de": "Verplant",
+    "tr": "Planlı",
+    "ar": "محجوز",
+    "uk": "Заплановано",
+    "fa": "پُر"
+  },
+  "Selected hour": {
+    "en": "Selected hour",
+    "de": "Ausgewählte Stunde",
+    "tr": "Seçili saat",
+    "ar": "الساعة المحددة",
+    "uk": "Обрана година",
+    "fa": "ساعت انتخاب‌شده"
+  },
+  "Select an hour to see exact time ranges.": {
+    "en": "Select an hour to see exact time ranges.",
+    "de": "Wähle eine Stunde für die genauen Zeiträume.",
+    "tr": "Kesin zaman aralıkları için bir saat seç.",
+    "ar": "اختر ساعة لرؤية الفترات الدقيقة.",
+    "uk": "Обери годину, щоб побачити точні проміжки часу.",
+    "fa": "برای دیدن بازه‌های دقیق، یک ساعت را انتخاب کن."
+  },
+  "Each square is one minute. Read left to right, top to bottom.": {
+    "en": "Each square is one minute. Read left to right, top to bottom.",
+    "de": "Jedes Quadrat ist eine Minute. Von links nach rechts, Zeile für Zeile.",
+    "tr": "Her kare bir dakikadır. Soldan sağa, yukarıdan aşağıya oku.",
+    "ar": "كل مربع دقيقة واحدة. من اليسار إلى اليمين، ومن الأعلى إلى الأسفل.",
+    "uk": "Кожен квадрат — одна хвилина. Читай зліва направо, згори донизу.",
+    "fa": "هر مربع یک دقیقه است؛ از چپ به راست و از بالا به پایین بخوان."
+  },
+  "All free": {
+    "en": "All free",
+    "de": "Ganz frei",
+    "tr": "Tamamen boş",
+    "ar": "متاحة بالكامل",
+    "uk": "Повністю вільно",
+    "fa": "کاملاً آزاد"
+  },
+  "Fully booked": {
+    "en": "Fully booked",
+    "de": "Ganz verplant",
+    "tr": "Tamamen planlı",
+    "ar": "محجوزة بالكامل",
+    "uk": "Повністю зайнято",
+    "fa": "کاملاً پُر"
+  },
+  "Partly booked": {
+    "en": "Partly booked",
+    "de": "Teilweise verplant",
+    "tr": "Kısmen planlı",
+    "ar": "محجوزة جزئيًا",
+    "uk": "Частково зайнято",
+    "fa": "بخشی پُر"
+  },
+  "{free} min free · {booked} min booked": {
+    "en": "{free} min free · {booked} min booked",
+    "de": "{free} Min. frei · {booked} Min. verplant",
+    "tr": "{free} dk boş · {booked} dk planlı",
+    "ar": "{free} د متاحة · {booked} د محجوزة",
+    "uk": "{free} хв вільно · {booked} хв зайнято",
+    "fa": "{free} دقیقه آزاد · {booked} دقیقه پُر"
+  },
+  "No activities scheduled. Your whole day is free.": {
+    "en": "No activities scheduled. Your whole day is free.",
+    "de": "Keine Aktivitäten geplant. Dein ganzer Tag ist frei.",
+    "tr": "Etkinlik planlanmadı. Tüm günün boş.",
+    "ar": "لا توجد أنشطة مجدولة. يومك كله متاح.",
+    "uk": "Справ не заплановано. Увесь день вільний.",
+    "fa": "فعالیتی ثبت نشده؛ تمام روزت آزاد است."
+  },
+  "This shows planned time, regardless of completion status.": {
+    "en": "This shows planned time, regardless of completion status.",
+    "de": "Diese Ansicht zeigt geplante Zeit, unabhängig vom Erledigungsstatus.",
+    "tr": "Bu görünüm, tamamlanma durumundan bağımsız olarak planlı zamanı gösterir.",
+    "ar": "يعرض هذا الوقت المخطط بصرف النظر عن حالة الإنجاز.",
+    "uk": "Це запланований час незалежно від стану виконання.",
+    "fa": "این نما زمان برنامه‌ریزی‌شده را نشان می‌دهد؛ مستقل از انجام‌شدن یا نشدن فعالیت‌ها."
+  },
+  "Daily time map": {
+    "en": "Daily time map",
+    "de": "Tageszeitübersicht",
+    "tr": "Günlük zaman haritası",
+    "ar": "خريطة وقت اليوم",
+    "uk": "Карта часу дня",
+    "fa": "نقشهٔ زمان روز"
+  },
+  "All daily time ranges": {
+    "en": "All daily time ranges",
+    "de": "Alle Zeiträume des Tages",
+    "tr": "Günün tüm zaman aralıkları",
+    "ar": "جميع الفترات اليومية",
+    "uk": "Усі проміжки часу дня",
+    "fa": "همهٔ بازه‌های زمانی روز"
+  },
+  "From": {
+    "en": "From",
+    "de": "Von",
+    "tr": "Başlangıç",
+    "ar": "من",
+    "uk": "Від",
+    "fa": "از ساعت"
+  },
+  "Until": {
+    "en": "Until",
+    "de": "Bis",
+    "tr": "Bitiş",
+    "ar": "إلى",
+    "uk": "До",
+    "fa": "تا ساعت"
+  },
+  "Duration": {
+    "en": "Duration",
+    "de": "Dauer",
+    "tr": "Süre",
+    "ar": "المدة",
+    "uk": "Тривалість",
+    "fa": "مدت"
+  },
+  "Availability": {
+    "en": "Availability",
+    "de": "Verfügbarkeit",
+    "tr": "Uygunluk",
+    "ar": "التوفر",
+    "uk": "Доступність",
+    "fa": "وضعیت زمان"
+  }
+}

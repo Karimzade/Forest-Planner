@@ -1,0 +1,507 @@
+/* A brief, silent reward celebration. No animation library or React inline styles. */
+.reward-celebration {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  pointer-events: none;
+  isolation: isolate;
+}
+.celebration-leaves {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.falling-leaf {
+  position: absolute;
+  top: -60px;
+  width: 15px;
+  height: 27px;
+  opacity: 0;
+  border-radius: 95% 5% 90% 10%;
+  background: linear-gradient(135deg, #bdd29d, #6c975e 65%, #416a45);
+  box-shadow:
+    inset 1px 0 2px #f1edb34d,
+    0 2px 5px #123c2b12;
+  animation: forest-leaf-fall var(--duration, 5s) var(--delay, 0s)
+    cubic-bezier(0.24, 0.5, 0.55, 0.85) both;
+  will-change: transform, opacity;
+}
+.falling-leaf::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 85%;
+  left: 48%;
+  top: 10%;
+  background: #edf3c655;
+  transform: rotate(25deg);
+}
+.falling-leaf::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 7px;
+  background: #8e8455;
+  bottom: -4px;
+  left: 1px;
+  transform: rotate(30deg);
+  transform-origin: top;
+}
+.falling-leaf:nth-child(3n) {
+  background: linear-gradient(135deg, #ead69c, #c5a156 65%, #9f7f3c);
+}
+.falling-leaf:nth-child(4n) {
+  background: linear-gradient(135deg, #d5ddb2, #89aa75 65%, #567a4d);
+  width: 12px;
+  height: 21px;
+}
+.falling-leaf:nth-child(5n) {
+  width: 18px;
+  height: 31px;
+  background: linear-gradient(135deg, #f1dfac, #bea66b 65%, #a3884c);
+}
+@keyframes forest-leaf-fall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0) rotate(var(--start, 10deg));
+  }
+  8% {
+    opacity: 0.9;
+  }
+  45% {
+    transform: translate3d(var(--sway, 30px), 55vh, 0)
+      rotate(calc(var(--spin, 360deg) * 0.45));
+  }
+  82% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift, -30px), calc(100vh + 100px), 0)
+      rotate(var(--spin, 360deg));
+  }
+}
+.celebration-message {
+  position: absolute;
+  top: clamp(20px, 7vh, 65px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(440px, calc(100% - 34px));
+  text-align: center;
+  padding: 24px 36px;
+  background: linear-gradient(140deg, #fffdf4f7, #f1eddaf7);
+  border: 1px solid #c6ad6c;
+  border-radius: 17px;
+  box-shadow:
+    0 16px 60px #15382e30,
+    inset 0 0 0 5px #fffdf74d;
+  backdrop-filter: blur(10px);
+  pointer-events: none;
+  animation: forest-celebration-in 0.4s ease-out both;
+}
+.celebration-emblem {
+  display: block;
+  font-size: 38px;
+  line-height: 1.1;
+  color: #b69853;
+  margin-bottom: 8px;
+}
+.celebration-message strong {
+  font-size: 23px;
+  color: #35543a;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.celebration-message p {
+  font-size: 15px;
+  color: #7a693f;
+  margin: 8px 0 6px;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+}
+.celebration-message small {
+  display: block;
+  color: #7e876c;
+  font-size: 11px;
+  line-height: 1.8;
+}
+.celebration-message button {
+  position: absolute;
+  inset-inline-end: 9px;
+  top: 8px;
+  min-width: 34px;
+  min-height: 34px;
+  font-size: 24px;
+  border-radius: 50%;
+  color: #7e896a;
+  pointer-events: auto;
+}
+.celebration-message button:hover {
+  background: #e5e8d7;
+}
+@keyframes forest-celebration-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -8px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+@media (max-width: 760px) {
+  .falling-leaf {
+    width: 11px;
+    height: 21px;
+  }
+  .falling-leaf:nth-child(5n) {
+    width: 14px;
+    height: 24px;
+  }
+  .celebration-message {
+    padding: 20px 29px;
+    top: 20px;
+  }
+  .celebration-message strong {
+    font-size: 20px;
+  }
+  .celebration-message p {
+    font-size: 13px;
+  }
+  .celebration-message small {
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .celebration-leaves {
+    display: none;
+  }
+  .celebration-message {
+    animation: none;
+  }
+}
+.leaf-0 {
+  left: 1.39%;
+  --delay: 0.88s;
+  --duration: 5.65s;
+  --start: -66deg;
+  --spin: 202deg;
+  --sway: 6px;
+  --drift: 1px;
+}
+.leaf-1 {
+  left: 4.17%;
+  --delay: 1s;
+  --duration: 4.83s;
+  --start: 66deg;
+  --spin: 511deg;
+  --sway: -41px;
+  --drift: 59px;
+}
+.leaf-2 {
+  left: 6.94%;
+  --delay: 1.14s;
+  --duration: 5.29s;
+  --start: 59deg;
+  --spin: 404deg;
+  --sway: 54px;
+  --drift: 4px;
+}
+.leaf-3 {
+  left: 9.72%;
+  --delay: 0.72s;
+  --duration: 4.23s;
+  --start: 46deg;
+  --spin: -462deg;
+  --sway: 43px;
+  --drift: -69px;
+}
+.leaf-4 {
+  left: 12.5%;
+  --delay: 0.18s;
+  --duration: 4.9s;
+  --start: -1deg;
+  --spin: -206deg;
+  --sway: -30px;
+  --drift: -29px;
+}
+.leaf-5 {
+  left: 15.28%;
+  --delay: 1.08s;
+  --duration: 4.24s;
+  --start: -47deg;
+  --spin: 261deg;
+  --sway: 56px;
+  --drift: -54px;
+}
+.leaf-6 {
+  left: 18.06%;
+  --delay: 0.65s;
+  --duration: 4.84s;
+  --start: -68deg;
+  --spin: -590deg;
+  --sway: 39px;
+  --drift: 43px;
+}
+.leaf-7 {
+  left: 20.83%;
+  --delay: 0.03s;
+  --duration: 5.09s;
+  --start: -41deg;
+  --spin: -280deg;
+  --sway: -27px;
+  --drift: -33px;
+}
+.leaf-8 {
+  left: 23.61%;
+  --delay: 0.38s;
+  --duration: 4.66s;
+  --start: 3deg;
+  --spin: -450deg;
+  --sway: -6px;
+  --drift: -36px;
+}
+.leaf-9 {
+  left: 26.39%;
+  --delay: 0.67s;
+  --duration: 5.16s;
+  --start: -71deg;
+  --spin: -206deg;
+  --sway: 0px;
+  --drift: -24px;
+}
+.leaf-10 {
+  left: 29.17%;
+  --delay: 0.71s;
+  --duration: 5.67s;
+  --start: -38deg;
+  --spin: 469deg;
+  --sway: 22px;
+  --drift: 18px;
+}
+.leaf-11 {
+  left: 31.94%;
+  --delay: 0.47s;
+  --duration: 5.12s;
+  --start: 15deg;
+  --spin: 338deg;
+  --sway: -47px;
+  --drift: -79px;
+}
+.leaf-12 {
+  left: 34.72%;
+  --delay: 0.95s;
+  --duration: 4.51s;
+  --start: 15deg;
+  --spin: 502deg;
+  --sway: -51px;
+  --drift: 65px;
+}
+.leaf-13 {
+  left: 37.5%;
+  --delay: 1.17s;
+  --duration: 5.65s;
+  --start: 21deg;
+  --spin: 584deg;
+  --sway: 37px;
+  --drift: 3px;
+}
+.leaf-14 {
+  left: 40.28%;
+  --delay: 0.82s;
+  --duration: 4.92s;
+  --start: 52deg;
+  --spin: -406deg;
+  --sway: -59px;
+  --drift: -10px;
+}
+.leaf-15 {
+  left: 43.06%;
+  --delay: 0.98s;
+  --duration: 4.24s;
+  --start: -1deg;
+  --spin: 290deg;
+  --sway: 1px;
+  --drift: -19px;
+}
+.leaf-16 {
+  left: 45.83%;
+  --delay: 0.53s;
+  --duration: 5.48s;
+  --start: -44deg;
+  --spin: -239deg;
+  --sway: 56px;
+  --drift: 60px;
+}
+.leaf-17 {
+  left: 48.61%;
+  --delay: 0.21s;
+  --duration: 5.49s;
+  --start: 5deg;
+  --spin: 288deg;
+  --sway: -17px;
+  --drift: 76px;
+}
+.leaf-18 {
+  left: 51.39%;
+  --delay: 0.05s;
+  --duration: 4.06s;
+  --start: 69deg;
+  --spin: 256deg;
+  --sway: -6px;
+  --drift: 13px;
+}
+.leaf-19 {
+  left: 54.17%;
+  --delay: 0.26s;
+  --duration: 4.34s;
+  --start: 13deg;
+  --spin: -437deg;
+  --sway: 10px;
+  --drift: -80px;
+}
+.leaf-20 {
+  left: 56.94%;
+  --delay: 0.34s;
+  --duration: 5.62s;
+  --start: 12deg;
+  --spin: -200deg;
+  --sway: 26px;
+  --drift: 73px;
+}
+.leaf-21 {
+  left: 59.72%;
+  --delay: 1.11s;
+  --duration: 4.66s;
+  --start: 15deg;
+  --spin: -504deg;
+  --sway: 28px;
+  --drift: 78px;
+}
+.leaf-22 {
+  left: 62.5%;
+  --delay: 1.2s;
+  --duration: 5.54s;
+  --start: -70deg;
+  --spin: 369deg;
+  --sway: -3px;
+  --drift: -16px;
+}
+.leaf-23 {
+  left: 65.28%;
+  --delay: 0.63s;
+  --duration: 4.55s;
+  --start: 12deg;
+  --spin: 324deg;
+  --sway: -21px;
+  --drift: -13px;
+}
+.leaf-24 {
+  left: 68.06%;
+  --delay: 0.27s;
+  --duration: 4.29s;
+  --start: 45deg;
+  --spin: -438deg;
+  --sway: 54px;
+  --drift: 0px;
+}
+.leaf-25 {
+  left: 70.83%;
+  --delay: 0.65s;
+  --duration: 4.62s;
+  --start: 27deg;
+  --spin: 557deg;
+  --sway: 1px;
+  --drift: 78px;
+}
+.leaf-26 {
+  left: 73.61%;
+  --delay: 0.57s;
+  --duration: 5.29s;
+  --start: 0deg;
+  --spin: -225deg;
+  --sway: 37px;
+  --drift: -80px;
+}
+.leaf-27 {
+  left: 76.39%;
+  --delay: 0.1s;
+  --duration: 5.26s;
+  --start: 24deg;
+  --spin: 244deg;
+  --sway: 56px;
+  --drift: 44px;
+}
+.leaf-28 {
+  left: 79.17%;
+  --delay: 0.3s;
+  --duration: 5.15s;
+  --start: 16deg;
+  --spin: 217deg;
+  --sway: 21px;
+  --drift: 29px;
+}
+.leaf-29 {
+  left: 81.94%;
+  --delay: 0.64s;
+  --duration: 4.7s;
+  --start: 70deg;
+  --spin: 353deg;
+  --sway: -15px;
+  --drift: 64px;
+}
+.leaf-30 {
+  left: 84.72%;
+  --delay: 0.44s;
+  --duration: 4.01s;
+  --start: -54deg;
+  --spin: 550deg;
+  --sway: -11px;
+  --drift: 63px;
+}
+.leaf-31 {
+  left: 87.5%;
+  --delay: 1.16s;
+  --duration: 4.89s;
+  --start: 8deg;
+  --spin: 248deg;
+  --sway: 46px;
+  --drift: 56px;
+}
+.leaf-32 {
+  left: 90.28%;
+  --delay: 0.01s;
+  --duration: 5.39s;
+  --start: -47deg;
+  --spin: -249deg;
+  --sway: -24px;
+  --drift: -28px;
+}
+.leaf-33 {
+  left: 93.06%;
+  --delay: 0.89s;
+  --duration: 5.02s;
+  --start: -39deg;
+  --spin: -525deg;
+  --sway: -39px;
+  --drift: 4px;
+}
+.leaf-34 {
+  left: 95.83%;
+  --delay: 0.19s;
+  --duration: 5.02s;
+  --start: -1deg;
+  --spin: 536deg;
+  --sway: 9px;
+  --drift: 79px;
+}
+.leaf-35 {
+  left: 98.61%;
+  --delay: 0.24s;
+  --duration: 4.51s;
+  --start: -4deg;
+  --spin: 594deg;
+  --sway: 3px;
+  --drift: 28px;
+}
