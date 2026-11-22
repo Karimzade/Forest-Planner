@@ -276,10 +276,7 @@ export default function Daily() {
                     : t("A fresh day. A fresh start.")}
                 </h3>
                 <p>{t("Add your first activity to shape your day.")}</p>
-                <button className="primary" onClick={() => setEditing({})}>
-                  {" "}
-                  {t("＋ New activity")}{" "}
-                </button>
+                
               </div>
             )}
           </div>
