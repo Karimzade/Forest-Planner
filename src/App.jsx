@@ -1,4 +1,4 @@
-import { useLanguage, LanguagePicker } from "./Language";
+import { useLanguage } from "./Language";
 import React, { useState, useEffect, useCallback, useReducer } from "react";
 import {
   NavLink,
@@ -153,7 +153,7 @@ export default function App() {
         </aside>
         <main>
           <header className="topbar">
-            <LanguagePicker />
+        
             <span>{t("Your personal daily planner")}</span>
             <span className="today-label">{formatDate(today())}</span>
           </header>
