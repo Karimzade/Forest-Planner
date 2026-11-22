@@ -57,7 +57,7 @@ export default function Welcome({ children }) {
         <h1>{t("Welcome to Forest")}</h1>
         <p>{t("Choose your language and tell us your name to begin.")}</p>
         <form onSubmit={enter}>
-          <LanguagePicker searchable />
+          <LanguagePicker />
           <label className="welcome-name">
             {t("Your name")}
             <input
