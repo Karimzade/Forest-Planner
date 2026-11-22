@@ -124,20 +124,7 @@ export default function TaskForm({ task, close }) {
               ))}
             </select>
           </label>
-          <label>
-            {" "}
-            {t("Points")}{" "}
-            <input
-              type="number"
-              min="0"
-              max="1000"
-              step="1"
-              required
-              disabled={task.status === "done"}
-              value={form.points}
-              onChange={(e) => update("points", Number(e.target.value))}
-            />
-          </label>
+         
         </div>
         <label>
           {" "}
@@ -155,14 +142,7 @@ export default function TaskForm({ task, close }) {
             ))}
           </select>
         </label>
-        {task.status === "done" && (
-          <small>
-            {" "}
-            {t(
-              "Completed activity points are locked. Undo completion before changing them.",
-            )}{" "}
-          </small>
-        )}
+        
         {error && (
           <p className="error" role="alert">
             {t(error)}
