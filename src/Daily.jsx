@@ -1,7 +1,7 @@
 import { useLanguage } from "./Language";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { uid, summary, balance, validateTask, downloadReport } from "./helpers";
+import { uid, summary, validateTask, downloadReport } from "./helpers";
 import { usePlanner, categories, statusNames } from "./context";
 import Stat from "./Stat";
 import TaskForm from "./TaskForm";
@@ -30,24 +30,13 @@ export default function Daily() {
       (a, b) => a.date.localeCompare(b.date) || a.start.localeCompare(b.start),
     );
   function changeStatus(task, next) {
-    if (
-      task.status === "done" &&
-      next !== "done" &&
-      balance(data) < task.points
-    )
-      return notify(
-        "These points were spent on a reward. You need enough available points to undo completion.",
-      );
-    dispatch({ type: "status", id: task.id, status: next });
-  }
+  dispatch({ type: "status", id: task.id, status: next });
+ }
   function remove(task) {
-    if (task.status === "done" && balance(data) < task.points)
-      return notify(
-        "You need enough points in your balance to delete this completed activity.",
-      );
-    if (window.confirm(t("deleteConfirm", { title: task.title })))
-      dispatch({ type: "delete", id: task.id });
+  if (window.confirm(t("deleteConfirm", { title: task.title }))) {
+    dispatch({ type: "delete", id: task.id });
   }
+}
   function copyYesterday() {
     const previous = new Date(`${date}T12:00:00`);
     previous.setDate(previous.getDate() - 1);
