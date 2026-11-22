@@ -23,7 +23,7 @@ export function LanguageProvider({ children }) {
     const info = languageInfo(interfaceCode);
     document.documentElement.lang = interfaceCode;
     document.documentElement.dir = info.dir;
-    document.title = `${t("Forest")} | ${t("Daily schedule")}`;
+    document.title = `Forest | ${t("Daily schedule")}`;
     try {
       localStorage.setItem("forest-language", language);
     } catch {

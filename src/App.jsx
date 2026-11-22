@@ -112,7 +112,7 @@ export default function App() {
             <span className="brand-icon">❧</span>
             <span>
               {" "}
-              {t("Forest")}
+              Forest
               <small>{t("A little growth, every day")}</small>
             </span>
           </NavLink>
@@ -187,7 +187,7 @@ export default function App() {
           </Routes>
           <footer>
             {" "}
-            {t("Forest")} <span>✦</span> {t("Make room for mindful days")}{" "}
+            Forest <span>✦</span> {t("Make room for mindful days")}{" "}
           </footer>
         </main>
       </div>
