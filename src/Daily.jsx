@@ -122,12 +122,7 @@ export default function Daily() {
           value={stats.percent === null ? "—" : number(stats.percent) + t("%")}
           icon="↗"
         />
-        <Stat
-          label={t("Available points")}
-          value={number(balance(data))}
-          icon="✦"
-          gold
-        />
+        
       </section>
       <div className="daily-layout">
         <section className="panel schedule">
@@ -218,9 +213,7 @@ export default function Daily() {
                     <p>
                       {allDates && formatDate(task.date) + " · "}
                       {t(statusNames[task.status])}{" "}
-                      <span>
-                        · {number(task.points)} {t("Points")}
-                      </span>
+                      
                       {task.reminder !== "off" && (
                         <span> {t("· ◷ Reminder")}</span>
                       )}
