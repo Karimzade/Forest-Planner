@@ -1,5 +1,5 @@
 import { useLanguage } from "./Language";
-import React, { useState, useMemo } from "react";
+import React, { useMemo } from "react";
 import { earned, dailySeries } from "./helpers";
 import { usePlanner } from "./context";
 import Stat from "./Stat";
@@ -8,7 +8,6 @@ import Chart from "./Chart";
 export default function Progress() {
   const { t, number, formatDate } = useLanguage();
   const { data } = usePlanner();
-  const [mode, setMode] = useState("words");
   const rows = useMemo(() => dailySeries(data), [data]);
   return (
     <>
@@ -25,11 +24,7 @@ export default function Progress() {
           value={number(data.tasks.filter((t) => t.status === "done").length)}
           icon="✓"
         />
-        <Stat
-          label={t("Total words")}
-          value={number(Object.values(data.words).reduce((s, n) => s + n, 0))}
-          icon="Aa"
-        />
+        
         <Stat
           label={t("Total points earned")}
           value={number(earned(data))}
@@ -57,24 +52,7 @@ export default function Progress() {
           percent
         />
       </section>
-      <section className="panel spaced">
-        <div className="section-heading">
-          <h2>{t("Your vocabulary journey")}</h2>
-          <select
-            aria-label={t("Vocabulary chart type")}
-            value={mode}
-            onChange={(e) => setMode(e.target.value)}
-          >
-            <option value="words">{t("Words per day")}</option>
-            <option value="cumulative">{t("Cumulative total")}</option>
-          </select>
-        </div>
-        <Chart
-          rows={rows}
-          field={mode}
-          label={mode === "words" ? t("Daily words") : t("Total words")}
-        />
-      </section>
+      
       <section className="panel spaced">
         <h2>{t("Your days at a glance")}</h2>
         <div className="table-wrap">
@@ -84,8 +62,6 @@ export default function Progress() {
                 <th>{t("Date")}</th>
                 <th>{t("Completed / total")}</th>
                 <th>{t("Completion")}</th>
-                <th>{t("Words today")}</th>
-                <th>{t("Total words")}</th>
               </tr>
             </thead>
             <tbody>
@@ -100,8 +76,6 @@ export default function Progress() {
                       ? t("No plan")
                       : number(r.percent) + t("%")}
                   </td>
-                  <td>{number(r.words)}</td>
-                  <td>{number(r.cumulative)}</td>
                 </tr>
               ))}
             </tbody>
