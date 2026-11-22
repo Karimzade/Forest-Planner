@@ -182,7 +182,7 @@ export function downloadReport(data, date, language = "en") {
       translate("درصد تحقق", language),
       s.percent ?? translate("بدون برنامه", language),
     ],
-    [translate("لغات روز", language), data.words[date] || 0],
+    
   );
   download(
     "\uFEFF" + rows.map((row) => row.map(cell).join(",")).join("\r\n"),
