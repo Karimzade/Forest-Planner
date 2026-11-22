@@ -12,7 +12,7 @@ import { PlannerContext } from "./context";
 import Daily from "./Daily";
 import DayOverview from "./DayOverview";
 import Progress from "./Progress";
-import Rewards from "./Rewards";
+
 const reminded = new Set();
 let loadError = "";
 let savedData;
@@ -102,7 +102,6 @@ export default function App() {
     ["/", "◷", t("My day")],
     ["/day-view", "▦", t("24-hour view")],
     ["/progress", "↗", t("Progress")],
-    ["/rewards", "♧", t("Points & rewards")],
   ];
   return (
     <PlannerContext.Provider value={value}>
@@ -182,7 +181,6 @@ export default function App() {
             <Route path="/" element={<Daily />} />
             <Route path="/day-view" element={<DayOverview />} />
             <Route path="/progress" element={<Progress />} />
-            <Route path="/rewards" element={<Rewards />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <footer>
