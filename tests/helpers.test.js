@@ -66,15 +66,8 @@ test("claim spends once and prevents deleting spent earnings", () => {
     "done",
   );
 });
-test("word updates replace the day's count without adding it twice", () => {
-  let d = reducer(base(), { type: "words", date: today(), count: 10 });
-  d = reducer(d, { type: "words", date: today(), count: 12 });
-  assert.equal(d.words[today()], 12);
-  assert.equal(
-    Object.values(d.words).reduce((sum, count) => sum + count, 0),
-    12,
-  );
-});
+
+
 test("overlap rejected, touching intervals accepted, midnight end allowed", () => {
   const d = base();
   const t = { ...d.tasks[0], id: "b", start: "09:30", end: "10:30" };

@@ -85,8 +85,7 @@ export function reducer(data, action) {
     }
     case "copy":
       return { ...data, tasks: [...data.tasks, ...action.tasks] };
-    case "words":
-      return { ...data, words: { ...data.words, [action.date]: action.count } };
+    
     case "reward":
       return { ...data, reward: action.reward };
     case "claim":
