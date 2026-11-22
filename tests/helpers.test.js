@@ -25,15 +25,24 @@ const base = () => ({
   history: [],
 });
 
-test("restored progress series reports completion and vocabulary totals", () => {
-  let data = reducer(base(), { type: "status", id: "a", status: "done" });
-  data = reducer(data, { type: "words", date: today(), count: 12 });
+test("progress series uses activities only", () => {
+  const data = reducer(base(), {
+    type: "status",
+    id: "a",
+    status: "done",
+  });
+
+  // Old vocabulary data must not add dates to planner progress.
+  data.words = { "2000-01-01": 12 };
+
   const rows = dailySeries(data);
+
   assert.equal(rows.length, 1);
+  assert.equal(rows[0].date, today());
   assert.equal(rows[0].percent, 100);
-  assert.equal(rows[0].words, 12);
-  assert.equal(rows[0].cumulative, 12);
-  assert.deepEqual(dailySeries({ tasks: [], words: {} }), []);
+  assert.equal("words" in rows[0], false);
+  assert.equal("cumulative" in rows[0], false);
+  assert.deepEqual(dailySeries({ tasks: [] }), []);
 });
 test("completion is idempotent; undo reverses points", () => {
   let d = reducer(base(), { type: "status", id: "a", status: "done" });
