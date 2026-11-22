@@ -5,7 +5,6 @@ import { uid, summary, balance, validateTask, downloadReport } from "./helpers";
 import { usePlanner, categories, statusNames } from "./context";
 import Stat from "./Stat";
 import TaskForm from "./TaskForm";
-import WordCard from "./WordCard";
 
 export default function Daily() {
   const { t, number, formatDate, language } = useLanguage();
@@ -299,7 +298,7 @@ export default function Daily() {
           </div>
         </section>
         <aside className="right-column">
-          <WordCard key={date} />
+          
           <section className="panel reminder-card">
             <span className="card-symbol">◷</span>
             <h2>{t("On time. At ease.")}</h2>
