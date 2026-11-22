@@ -104,22 +104,22 @@ export function reducer(data, action) {
   }
 }
 export function dailySeries(data) {
-  const dates = [...data.tasks.map((t) => t.date), ...Object.keys(data.words)]
+  const dates = data.tasks.map((t) => t.date)
     .filter((d) => d <= today())
     .sort();
   if (!dates.length) return [];
   const result = [];
   const date = new Date(`${dates[0]}T12:00:00`);
   const end = new Date(`${today()}T12:00:00`);
-  let cumulative = 0;
+  
   while (date <= end) {
     const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-    cumulative += data.words[key] || 0;
+    
     result.push({
       date: key,
       ...summary(data.tasks.filter((t) => t.date === key)),
-      words: data.words[key] || 0,
-      cumulative,
+      
+      
     });
     date.setDate(date.getDate() + 1);
   }
