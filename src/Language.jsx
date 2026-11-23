@@ -13,7 +13,10 @@ const LanguageContext = createContext(null);
 export const useLanguage = () => useContext(LanguageContext);
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState(initialLanguage);
+  const [language, setLanguage] = useState(() => {
+  const saved = initialLanguage();
+  return ["en", "de", "fa", "ar", "uk"].includes(saved) ? saved : "en";
+});
   const interfaceCode = interfaceLanguage(language);
   const t = (key, values) => translate(key, language, values);
   const number = (value) => localizedNumber(value, language);
@@ -43,14 +46,12 @@ export function LanguageProvider({ children }) {
 export function LanguagePicker({ searchable = false }) {
   const { language, setLanguage, t, interfaceCode } = useLanguage();
   const [query, setQuery] = useState("");
-  const matches = languages.filter((item) =>
+  const matches = languages.filter((item) => ["en", "de", "fa", "ar", "uk"].includes(item.code)).filter((item) =>
     `${item.name} ${item.english} ${item.code}`
       .toLocaleLowerCase()
       .includes(query.toLocaleLowerCase().trim()),
   );
-  const choices = matches.some((item) => item.code === language)
-    ? matches
-    : [languageInfo(language), ...matches];
+  const choices = matches;
   return (
     <div className="language-control">
       {searchable && (
