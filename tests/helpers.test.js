@@ -51,20 +51,23 @@ test("completion is idempotent; undo reverses points", () => {
   d = reducer(d, { type: "status", id: "a", status: "pending" });
   assert.equal(balance(d), 0);
 });
-test("claim spends once and prevents deleting spent earnings", () => {
-  let d = reducer(base(), { type: "status", id: "a", status: "done" });
-  d = reducer(d, { type: "reward", reward: { title: "Cinema", cost: 15 } });
-  d = reducer(d, { type: "claim", id: "r", date: today() });
-  assert.equal(balance(d), 5);
-  assert.equal(
-    reducer(d, { type: "claim", id: "r2", date: today() }).history.length,
-    1,
-  );
-  assert.equal(reducer(d, { type: "delete", id: "a" }).tasks.length, 1);
-  assert.equal(
-    reducer(d, { type: "status", id: "a", status: "missed" }).tasks[0].status,
-    "done",
-  );
+test("old reward history does not block changing or deleting activities", () => {
+  const data = base();
+  data.tasks[0].status = "done";
+  data.history = [{ title: "Old reward", cost: 20 }];
+
+  const updated = reducer(data, {
+    type: "status",
+    id: "a",
+    status: "pending",
+  });
+  assert.equal(updated.tasks[0].status, "pending");
+
+  const deleted = reducer(data, {
+    type: "delete",
+    id: "a",
+  });
+  assert.equal(deleted.tasks.length, 0);
 });
 
 

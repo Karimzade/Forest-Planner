@@ -63,26 +63,21 @@ export function reducer(data, action) {
           : [...data.tasks, action.task],
       };
     case "status": {
-      const task = data.tasks.find((t) => t.id === action.id);
-      if (
-        !task ||
-        (task.status === "done" &&
-          action.status !== "done" &&
-          balance(data) < task.points)
-      )
-        return data;
-      return {
-        ...data,
-        tasks: data.tasks.map((t) =>
-          t.id === action.id ? { ...t, status: action.status } : t,
-        ),
-      };
-    }
-    case "delete": {
-      const task = data.tasks.find((t) => t.id === action.id);
-      if (task?.status === "done" && balance(data) < task.points) return data;
-      return { ...data, tasks: data.tasks.filter((t) => t.id !== action.id) };
-    }
+  const task = data.tasks.find((t) => t.id === action.id);
+  if (!task) return data;
+
+  return {
+    ...data,
+    tasks: data.tasks.map((t) =>
+      t.id === action.id ? { ...t, status: action.status } : t,
+    ),
+  };
+}
+case "delete":
+  return {
+    ...data,
+    tasks: data.tasks.filter((t) => t.id !== action.id),
+  };
     case "copy":
       return { ...data, tasks: [...data.tasks, ...action.tasks] };
     
