@@ -1,6 +1,6 @@
 import { useLanguage } from "./Language";
 import React, { useMemo } from "react";
-import { earned, dailySeries } from "./helpers";
+import { dailySeries } from "./helpers";
 import { usePlanner } from "./context";
 import Stat from "./Stat";
 import Chart from "./Chart";
@@ -16,7 +16,6 @@ export default function Progress() {
           {t("FROM YOUR FIRST STEP TO TODAY")}
         </span>
         <h1>{t("Your growth journey")}</h1>
-        <p>{t("Every point is part of your journey. Be kind to yourself.")}</p>
       </div>
       <section className="stats-grid">
         <Stat
@@ -25,17 +24,6 @@ export default function Progress() {
           icon="✓"
         />
         
-        <Stat
-          label={t("Total points earned")}
-          value={number(earned(data))}
-          icon="✦"
-          gold
-        />
-        <Stat
-          label={t("Rewards claimed")}
-          value={number(data.history.length)}
-          icon="♧"
-        />
       </section>
       <section className="panel">
         <h2>{t("Plan completion over time")}</h2>
