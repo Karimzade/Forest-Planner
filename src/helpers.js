@@ -7,14 +7,23 @@ export function today() {
 export const uid = () => crypto.randomUUID();
 export const minutes = (time) =>
   Number(time.slice(0, 2)) * 60 + Number(time.slice(3));
-export const emptyData = { tasks: [], words: {}, reward: null, history: [] };
+export const emptyData = { tasks: []};
 export function readData() {
   const raw = localStorage.getItem("forest-planner-v1");
-  if (!raw) return emptyData;
+  if (!raw) return { tasks: [] };
+
   const data = JSON.parse(raw);
-  if (!Array.isArray(data.tasks) || !data.words || !Array.isArray(data.history))
+
+  if (!data || !Array.isArray(data.tasks)) {
     throw Error("Invalid saved data");
-  return data;
+  }
+
+  return {
+    tasks: data.tasks.map((task) => {
+      const { points, ...activity } = task;
+      return activity;
+    }),
+  };
 }
 
 export function summary(tasks) {
