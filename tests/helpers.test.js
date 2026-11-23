@@ -2,7 +2,6 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   reducer,
-  balance,
   summary,
   dailySeries,
   validateTask,
@@ -44,12 +43,30 @@ test("progress series uses activities only", () => {
   assert.equal("cumulative" in rows[0], false);
   assert.deepEqual(dailySeries({ tasks: [] }), []);
 });
-test("completion is idempotent; undo reverses points", () => {
-  let d = reducer(base(), { type: "status", id: "a", status: "done" });
-  d = reducer(d, { type: "status", id: "a", status: "done" });
-  assert.equal(balance(d), 20);
-  d = reducer(d, { type: "status", id: "a", status: "pending" });
-  assert.equal(balance(d), 0);
+test("completion is idempotent and can be undone", () => {
+  let data = reducer(base(), {
+    type: "status",
+    id: "a",
+    status: "done",
+  });
+
+  data = reducer(data, {
+    type: "status",
+    id: "a",
+    status: "done",
+  });
+
+  assert.equal(data.tasks.length, 1);
+  assert.equal(summary(data.tasks).done, 1);
+
+  data = reducer(data, {
+    type: "status",
+    id: "a",
+    status: "pending",
+  });
+
+  assert.equal(data.tasks[0].status, "pending");
+  assert.equal(summary(data.tasks).done, 0);
 });
 test("old reward history does not block changing or deleting activities", () => {
   const data = base();

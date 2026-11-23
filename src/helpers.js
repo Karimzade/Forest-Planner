@@ -16,14 +16,7 @@ export function readData() {
     throw Error("Invalid saved data");
   return data;
 }
-export function earned(data) {
-  return data.tasks
-    .filter((t) => t.status === "done")
-    .reduce((sum, t) => sum + t.points, 0);
-}
-export function balance(data) {
-  return earned(data) - data.history.reduce((sum, r) => sum + r.cost, 0);
-}
+
 export function summary(tasks) {
   const done = tasks.filter((t) => t.status === "done").length;
   return {
@@ -80,18 +73,7 @@ case "delete":
     case "copy":
       return { ...data, tasks: [...data.tasks, ...action.tasks] };
     
-    case "reward":
-      return { ...data, reward: action.reward };
-    case "claim":
-      if (!data.reward || balance(data) < data.reward.cost) return data;
-      return {
-        ...data,
-        reward: null,
-        history: [
-          ...data.history,
-          { ...data.reward, id: action.id, date: action.date },
-        ],
-      };
+    
     default:
       return data;
   }
