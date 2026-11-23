@@ -39,8 +39,7 @@ export function validateTask(task, tasks) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(task.date)) return "تاریخ را انتخاب کن.";
   if (!task.start || !task.end || minutes(task.start) >= minutes(task.end))
     return "زمان پایان باید بعد از شروع باشد؛ برای پایان روز ۲۴:۰۰ را وارد کن.";
-  if (!Number.isInteger(task.points) || task.points < 0 || task.points > 1000)
-    return "امتیاز باید عدد صحیح بین صفر و ۱۰۰۰ باشد.";
+
   if (
     tasks.some(
       (t) =>
@@ -148,7 +147,6 @@ export function downloadReport(data, date, language = "en") {
       translate("پایان", language),
       translate("دسته‌بندی", language),
       translate("وضعیت", language),
-      translate("امتیاز", language),
     ],
   ];
   data.tasks
@@ -162,7 +160,7 @@ export function downloadReport(data, date, language = "en") {
         t.end,
         translate(t.category, language),
         translate(labels[t.status], language),
-        t.points,
+        
       ]),
     );
   const s = summary(data.tasks.filter((t) => t.date === date));

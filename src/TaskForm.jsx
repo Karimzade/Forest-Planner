@@ -13,7 +13,6 @@ export default function TaskForm({ task, close }) {
     start: "09:00",
     end: "10:00",
     category: "یادگیری",
-    points: 10,
     reminder: "0",
     status: "pending",
     ...task,
